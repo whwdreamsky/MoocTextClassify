@@ -1,3 +1,4 @@
+Question	Response	Answer	Lable
 BULB_C_VOLTAGE_EXPLAIN_WHY1	FaultFinding-BULB_C_VOLTAGE_EXPLAIN_WHY1.sbj3-l1.qa193	answer204	correct
 BULB_C_VOLTAGE_EXPLAIN_WHY1	FaultFinding-BULB_C_VOLTAGE_EXPLAIN_WHY1.sbj7-l1.qa185	answer205	correct
 BULB_C_VOLTAGE_EXPLAIN_WHY1	FaultFinding-BULB_C_VOLTAGE_EXPLAIN_WHY1.sbj8-l1.qa223	answer207.NEW	contradictory
