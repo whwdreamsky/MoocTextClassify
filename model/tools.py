@@ -55,7 +55,7 @@ def load_data_fromfile(index_file,relation_file,word_dict,labeltype,sentence_max
     refer = []
     ans = []
     for index,row in relation_data.iterrows():
-        ans.append(row['response'])
+        ans.append(query_dict[row['response']])
         refer_str = ""
         for item in row['answer'].split(' '):
             #print(item)

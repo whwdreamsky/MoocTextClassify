@@ -95,32 +95,51 @@ def predict(modelfile,test_file,dictionary_inv):
 
 
 
+def transdata(xlist):
+    qus = np.zeros((xlist.shape[0],xlist[0].shape[0]))
+    for i in range(xlist.shape[0]):
+        qus[i] = xlist[i]
+    return qus
 
 def trainModel(x_train,y_train,x_test,y_test,dictionary_inv,word2vecfile):
     word2vecweight = KeyedVectors.load_word2vec_format(word2vecfile,binary=True)
+    # 作为PAD 的embeeding
+    UNK = np.random.randn(embedding_dim,)
+    PAD = np.random.randn(embedding_dim,)
+    embeedingweight = [PAD]
+    for i in range(1,len(dictionary_inv)):
+        if dictionary_inv[i] in word2vecweight.wv.vocab:
+            embeedingweight.append(word2vecweight[dictionary_inv[i]])
+        else:
+            embeedingweight.append(UNK)
+    embeedingweight = np.stack(embeedingweight)
+    print(embeedingweight.shape)
     #word2vecweight['PAD'] = np.zeros(word2vecweight.vector_size)
-    qus_train = x_train[:,0]
-    ans_train = x_train[:,1]
-    qus_test = x_test[:,0]
-    ans_test = x_test[:,1]
+    qus_train = transdata(x_train[:,0])
+    ans_train = transdata(x_train[:,1])
+    qus_test = transdata(x_test[:,0])
+    ans_test = transdata(x_test[:,1])
+
     y_train = np_utils.to_categorical(y_train)
     y_test = np_utils.to_categorical(y_test)
     # 这种是词向量固定 
-    qus_train = transToWord2Vec(qus_train,word2vecweight,dictionary_inv)
-    ans_train = transToWord2Vec(ans_train,word2vecweight,dictionary_inv)
-    qus_test = transToWord2Vec(qus_test,word2vecweight,dictionary_inv)
-    ans_test = transToWord2Vec(ans_test,word2vecweight,dictionary_inv)
-    query = Input(name='query', shape=(sentence_maxlen,embedding_dim))
-    doc = Input(name='doc', shape=(sentence_maxlen,embedding_dim))
-    '''
-    embedding = Embedding(self.config['vocab_size'], self.config['embed_size'], weights=[self.config['embed']], trainable = self.embed_trainable)
+    #qus_train = transToWord2Vec(qus_train,word2vecweight,dictionary_inv)
+    #ans_train = transToWord2Vec(ans_train,word2vecweight,dictionary_inv)
+    #qus_test = transToWord2Vec(qus_test,word2vecweight,dictionary_inv)
+    #ans_test = transToWord2Vec(ans_test,word2vecweight,dictionary_inv)
+    #query = Input(name='query', shape=(sentence_maxlen1,embedding_dim))
+    #doc = Input(name='doc', shape=(sentence_maxlen2,embedding_dim))
+    query = Input(name='query', shape=(sentence_maxlen1,))
+    doc = Input(name='doc', shape=(sentence_maxlen2,))
+    # 词向量不固定
+    embedding = Embedding(len(dictionary_inv), embedding_dim, weights=[embeedingweight], trainable = False)
     q_embed = embedding(query)
-    show_layer_info('Embedding', q_embed)
+    #show_layer_info('Embedding', q_embed)
     d_embed = embedding(doc)
-    show_layer_info('Embedding', d_embed)
-    '''
-    q_conv1 = Convolution1D(filters=num_filters, kernel_size=3, padding='valid',activation="relu",strides=1) (query)
-    d_conv1 = Convolution1D(filters=num_filters, kernel_size=3, padding='valid',activation="relu",strides=1) (doc)
+    #show_layer_info('Embedding', d_embed)
+
+    q_conv1 = Convolution1D(filters=num_filters, kernel_size=3, padding='valid',activation="relu",strides=1) (q_embed)
+    d_conv1 = Convolution1D(filters=num_filters, kernel_size=3, padding='valid',activation="relu",strides=1) (d_embed)
 
     q_pool1 = MaxPooling1D(pool_size=pooling_size) (q_conv1)
     d_pool1 = MaxPooling1D(pool_size=pooling_size) (d_conv1)
@@ -133,7 +152,7 @@ def trainModel(x_train,y_train,x_test,y_test,dictionary_inv,word2vecfile):
 
     out_ = Dense(5, activation='softmax')(pool1_flat_drop)
     model = Model([query,doc], out_)
-    model.compile(loss="categorical_crossentropy", optimizer="adam", metrics=["accuracy"])
+    model.compile(loss="categorical_crossentropy", optimizer="sgd", metrics=["accuracy"])
     #model.compile(loss="binary_crossentropy", optimizer="adam", metrics=["accuracy"])
 
     # Train the model
@@ -143,7 +162,8 @@ def trainModel(x_train,y_train,x_test,y_test,dictionary_inv,word2vecfile):
     model.save("model.h5")
 
 
-x_train,y_train,x_test,y_test,dictionary_inv = load_data("../data/train_bettle/index_simple_token.txt","../data/train_bettle/relation.txt","../data/train_bettle/word.txt",labeltype="5way")
+#x_train,y_train,x_test,y_test,dictionary_inv = load_data("../data/train_bettle/index_simple_token.txt","../data/train_bettle/relation.txt","../data/train_bettle/word.txt",labeltype="5way")
 #x_train,y_train,x_test,y_test,dictionary_inv = load_data("./ques_ans.txt","")
-trainModel(x_train,y_train,x_test,y_test,dictionary_inv,"./eng.vectors.bin")
+x_train,y_train,x_test,y_test,dictionary_inv = load_data("../data/train_bettle/index_simple_token.txt","../data/train_bettle/relation.txt","../data/test_bettle/ua_index_query.txt","../data/test_bettle/ua_relation.txt","../data/word.txt",labeltype="5way",sentence_maxlen1=30,sentence_maxlen2=70)
+trainModel(x_train,y_train,x_test,y_test,dictionary_inv,"/Users/oliver/workplace/deeplearning/resource/eng.vectors.bin")
 
