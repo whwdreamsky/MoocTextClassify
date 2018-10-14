@@ -1,0 +1,691 @@
+answer204	terminal 1 and the positive terminal are separated by the gap
+answer205	terminal 1 and the positive terminal are not connected
+answer206	terminal 1 is connected to the negative battery terminal
+answer207	terminal 1 is not separated from the negative battery terminal
+answer207.NEW	terminal 1 and the positive battery terminal are in different electrical states
+FaultFinding-BULB_C_VOLTAGE_EXPLAIN_WHY1.sbj12-l1.qa183	the positive battery terminal is separated by a gap from terminal 1
+FaultFinding-BULB_C_VOLTAGE_EXPLAIN_WHY1.sbj26-l1.qa224	terminal one was positive
+FaultFinding-BULB_C_VOLTAGE_EXPLAIN_WHY1.sbj26-l1.qa225	terminal 1 is positive
+FaultFinding-BULB_C_VOLTAGE_EXPLAIN_WHY1.sbj27-l1.qa205	i have absolutely no idea
+FaultFinding-BULB_C_VOLTAGE_EXPLAIN_WHY1.sbj35-l1.qa207	the terminal is separated from the positive battery terminal .
+FaultFinding-BULB_C_VOLTAGE_EXPLAIN_WHY1.sbj48-l1.qa188	because the positive terminal is separated by a gap from terminal 1
+FaultFinding-BULB_C_VOLTAGE_EXPLAIN_WHY1.sbjb3-l1.qa182	they are connected to the negative charge
+FaultFinding-BULB_C_VOLTAGE_EXPLAIN_WHY1.sbjb11-l1.qa164	because the terminals are not connected to each other
+FaultFinding-BULB_C_VOLTAGE_EXPLAIN_WHY1.sbjb24-l1.qa167	no idea
+BULB_C_VOLTAGE_EXPLAIN_WHY1	explain why you got a voltage reading of 1.5 for terminal 1 and the positive terminal .
+answer208	terminal 2 and the positive terminal are separated by the gap
+answer209	terminal 2 and the positive terminal are not connected
+answer210	terminal 2 is connected to the negative battery terminal
+answer211	terminal 2 is not separated from the negative battery terminal
+answer211.NEW	terminal 2 and the positive battery terminal are in different electrical states
+FaultFinding-BULB_C_VOLTAGE_EXPLAIN_WHY2.sbj3-l1.qa194	positive battery terminal is separated by a gap from terminal 2
+FaultFinding-BULB_C_VOLTAGE_EXPLAIN_WHY2.sbj11-l1.qa214	terminal 2 is not connected to the positive battery terminal .
+FaultFinding-BULB_C_VOLTAGE_EXPLAIN_WHY2.sbj13-l1.qa223	because there is a gap between the positive battery terminal and bulb terminal 2 .
+FaultFinding-BULB_C_VOLTAGE_EXPLAIN_WHY2.sbj18-l1.qa183	terminal 2 is not connected to the positive terminal .
+FaultFinding-BULB_C_VOLTAGE_EXPLAIN_WHY2.sbjb16-l1.qa162	the positive terminal is seperated by a gap from terminal 2
+FaultFinding-BULB_C_VOLTAGE_EXPLAIN_WHY2.sbjb22-l1.qa171	the positive battery terminal is separated b a gap from terminal 2
+BULB_C_VOLTAGE_EXPLAIN_WHY2	explain why you got a voltage reading of 1.5 for terminal 2 and the positive terminal .
+answer216	terminal 6 and the positive terminal are connected
+answer217	terminal 6 and the positive terminal are not separated by the gap
+answer218	terminal 6 and the positive terminal are not separated by the gap
+answer221	terminal 6 is not connected to the negative battery terminal
+answer220	there is no gap between terminal 6 and the positive terminal
+answer222	terminal 6 is separated by a gap from the negative battery terminal
+answer222.NEW	terminal 6 and the positive battery terminal are in the same electrical state
+FaultFinding-BULB_C_VOLTAGE_EXPLAIN_WHY6.sbj10-l1.qa215	the positive battery terminal is connected to terminal six
+FaultFinding-BULB_C_VOLTAGE_EXPLAIN_WHY6.sbj18-l1.qa185	terminal 6 is only connected to the positive terminal .
+FaultFinding-BULB_C_VOLTAGE_EXPLAIN_WHY6.sbj24-l1.qa229	bulb c does not work
+FaultFinding-BULB_C_VOLTAGE_EXPLAIN_WHY6.sbj39-l1.qa233	the positive battery terminal is separated by a gap from terminal 6
+FaultFinding-BULB_C_VOLTAGE_EXPLAIN_WHY6.sbj40-l1.qa224	there is no gap between terminal 6 and the positive terminal .
+FaultFinding-BULB_C_VOLTAGE_EXPLAIN_WHY6.sbj42-l1.qa207	a terminal is connected to the positive battery terminal .
+FaultFinding-BULB_C_VOLTAGE_EXPLAIN_WHY6.sbjb5-l1.qa172	the terminals are connected
+FaultFinding-BULB_C_VOLTAGE_EXPLAIN_WHY6.sbjb11-l1.qa167	the positive terminal is not separated by a gap from terminal 6
+FaultFinding-BULB_C_VOLTAGE_EXPLAIN_WHY6.sbjb13-l1.qa164	the positive battery terminal is not seperated from terminal 6 .
+FaultFinding-BULB_C_VOLTAGE_EXPLAIN_WHY6.sbjb18-l1.qa174	i dont know
+FaultFinding-BULB_C_VOLTAGE_EXPLAIN_WHY6.sbjb20-l1.qa174	the positive battery terminal was not separated by a gap from terminal 6 .
+FaultFinding-BULB_C_VOLTAGE_EXPLAIN_WHY6.sbjb28-l1.qa167	the 2 are connected
+BULB_C_VOLTAGE_EXPLAIN_WHY6	explain why you got a voltage reading of 0 for terminal 6 and the positive terminal .
+answer230	terminals 1 and 2 are connected
+answer231	terminals 1 and 2 are not separated by the gap
+answer232	there is no gap between them
+answer233	terminals 1 and 2 are connected and in the same electrical state
+answer234	there is no gap between terminals 1 and 2
+answer234.NEW	terminals 1 and 2 are in the same electrical state
+FaultFinding-BULB_ONLY_EXPLAIN_WHY2.sbj3-l1.qa208	terminal 1 and terminal 2 are connected to the negative battery terminal
+FaultFinding-BULB_ONLY_EXPLAIN_WHY2.sbj8-l1.qa243	because they are both connected to the negative battery terminal
+FaultFinding-BULB_ONLY_EXPLAIN_WHY2.sbj10-l1.qa228	because there is a gap
+FaultFinding-BULB_ONLY_EXPLAIN_WHY2.sbj10-l1.qa230	there is a gap between the positive terminal and the bulb
+FaultFinding-BULB_ONLY_EXPLAIN_WHY2.sbj15-l1.qa248	because terminal 1 is directly connected to terminal 2
+FaultFinding-BULB_ONLY_EXPLAIN_WHY2.sbj19-l1.qa267	terminal 1 is connected to
+FaultFinding-BULB_ONLY_EXPLAIN_WHY2.sbj29-l1.qa217	there was no gap between terminal 1 and terminal 2
+FaultFinding-BULB_ONLY_EXPLAIN_WHY2.sbj30-l1.qa210	because the terminals are connected
+FaultFinding-BULB_ONLY_EXPLAIN_WHY2.sbj47-l1.qa239	terminal 1 and 2 are connected to the negative battery
+FaultFinding-BULB_ONLY_EXPLAIN_WHY2.sbjb29-l1.qa177	because they are both recievining the same voltage from negative battery terminal
+FaultFinding-BULB_ONLY_EXPLAIN_WHY2.sbjb31-l1.qa173	because there was no gap present .
+BULB_ONLY_EXPLAIN_WHY2	explain why you got a voltage reading of 0 for terminal 1 and terminal 2 .
+answer235	terminals 1 and 4 are connected
+answer236	terminals 1 and 4 are not separated by the gap
+answer239	there is no gap between terminals 1 and 4
+answer238	terminals 1 and 4 are connected and in the same electrical state
+answer238.NEW	terminals 1 and 4 are in the same electrical state
+FaultFinding-BULB_ONLY_EXPLAIN_WHY4.sbj31-l1.qa218	terminal 1 and 4 are connected to the negtive terminal of the battery
+BULB_ONLY_EXPLAIN_WHY4	explain why you got a voltage reading of 0 for terminal 1 and terminal 4 .
+answer240	terminals 1 and 6 are separated by the gap
+answer241	terminals 1 and 6 are not connected
+answer242	terminals 1 and 6 are not connected and so in different electrical states
+answer243	there is a gap between terminals 1 and 6
+answer243.NEW	terminals 1 and 6 are in different electrical states
+FaultFinding-BULB_ONLY_EXPLAIN_WHY6.sbj22-l1.qa232	terminal 6 is conncected to the positive terminal of the battery and terminal 1 is connected to the negative terminal of the battery
+FaultFinding-BULB_ONLY_EXPLAIN_WHY6.sbj22-l1.qa234	terminal 6 is not connected to the negative terminal
+FaultFinding-BULB_ONLY_EXPLAIN_WHY6.sbj27-l1.qa228	there is a separation between them
+FaultFinding-BULB_ONLY_EXPLAIN_WHY6.sbj39-l1.qa249	terminal 1 is not connected to terminal 1
+FaultFinding-BULB_ONLY_EXPLAIN_WHY6.sbjb15-l1.qa177	they are not connected , there is a gap
+FaultFinding-BULB_ONLY_EXPLAIN_WHY6.sbjb20-l1.qa188	terminal 1 is connected to terminal 6 .
+FaultFinding-BULB_ONLY_EXPLAIN_WHY6.sbjb34-l1.qa175	terminal 1 and terminal 6 are separated by a gap .
+BULB_ONLY_EXPLAIN_WHY6	explain why you got a voltage reading of 1.5 for terminal 1 and terminal 6 .
+answer248	measuring voltage indicates the place where the electrical state changes due to a damaged bulb .
+answer249	measuring voltage indicates the place where the electrical state changes due to a gap .
+answer250	measuring voltage indicates whether two terminals are connected to each other .
+answer251	measuring voltage indicates whether two terminals are separated by a gap .
+answer252	a zero voltage means that the terminals are connected .
+answer253	a non-zero voltage means that the terminals are not connected .
+answer254	a zero voltage means that the terminals are not separated by a gap .
+answer255	a non-zero voltage means that the terminals are separated by a gap .
+answer256	a non-zero voltage means that there is a damaged bulb .
+answer257	a non-zero voltage means that there is a gap
+answer258	a zero voltage means that there is no damaged bulb .
+answer259	a zero voltage means that there is no gap
+answer260	a non-zero voltage means that the terminals have different electrical states .
+answer261	a zero voltage means that the terminals have the same electrical state .
+FaultFinding-BURNED_BULB_LOCATE_EXPLAIN_Q.sbj8-l1.qa257	because electrical states will be greater if there is a gap in the circuit
+FaultFinding-BURNED_BULB_LOCATE_EXPLAIN_Q.sbj10-l1.qa247	measuring voltage allows you to locate the gap in a connection
+FaultFinding-BURNED_BULB_LOCATE_EXPLAIN_Q.sbj10-l1.qa248	it allows you to measure electrical states within a connection , or find a gap in the connection
+FaultFinding-BURNED_BULB_LOCATE_EXPLAIN_Q.sbj23-l1.qa211	there is a difference in the electrical state at the location of the gap in the circuit .
+FaultFinding-BURNED_BULB_LOCATE_EXPLAIN_Q.sbj23-l1.qa213	the electrical state is non-zero .
+FaultFinding-BURNED_BULB_LOCATE_EXPLAIN_Q.sbj26-l1.qa260	it shows the chemical reaction of the battery to the telectrical state of the terminal
+FaultFinding-BURNED_BULB_LOCATE_EXPLAIN_Q.sbj36-l1.qa243	voltage shows the chemical reactions of where the ap is
+FaultFinding-BURNED_BULB_LOCATE_EXPLAIN_Q.sbj40-l1.qa254	burnt bulbs have no voltage at one of their terminals .
+FaultFinding-BURNED_BULB_LOCATE_EXPLAIN_Q.sbjb6-l1.qa183	measurimg the voltage allows you to see where there is a gap in the electrical states
+FaultFinding-BURNED_BULB_LOCATE_EXPLAIN_Q.sbjb9-l1.qa196	voltage measures the difference between the electrical states at two terminals . if there is a gap in the connection between the terminals , then a meter will measure a voltage .
+FaultFinding-BURNED_BULB_LOCATE_EXPLAIN_Q.sbjb11-l1.qa186	when a light bulb is burned out in a closed path , all the light blubs go out . voltage helps you to find where there is a gap in the path , which indicated a damaged bulb .
+BURNED_BULB_LOCATE_EXPLAIN_Q	why does measuring voltage help you locate a burned out bulb ? try to answer in terms of electrical states , connections and/ or a gap .
+answer137	terminals 4 , 5 and 6 are not connected to the negative battery terminal
+answer138	terminals 4 , 5 and 6 are separated from the negative battery terminal by a gap
+answer139	terminals 4 , 5 and 6 are connected to the positive battery terminal
+answer140	terminals 4 , 5 and 6 are not separated from the positive battery terminal by a gap
+FaultFinding-OTHER_TERMINAL_STATE_EXPLAIN_Q.sbj3-l1.qa144	because terminals 4 , 5 , and 6 are connected to the positive battery terminal
+FaultFinding-OTHER_TERMINAL_STATE_EXPLAIN_Q.sbj12-l1.qa134	they are connected to the positive battery terminal
+FaultFinding-OTHER_TERMINAL_STATE_EXPLAIN_Q.sbj14-l1.qa157	because they are connected to the positive terminal only .
+FaultFinding-OTHER_TERMINAL_STATE_EXPLAIN_Q.sbj26-l1.qa169	bulb b
+FaultFinding-OTHER_TERMINAL_STATE_EXPLAIN_Q.sbj27-l1.qa154	there terminals are separated by a gap
+FaultFinding-OTHER_TERMINAL_STATE_EXPLAIN_Q.sbj30-l1.qa140	terminal 4 , terminal 5 , and terminal 6 are connected to the positive battery terminal .
+FaultFinding-OTHER_TERMINAL_STATE_EXPLAIN_Q.sbj35-l1.qa150	4 , 5 and 6 are not connected to the negative battery terminal .
+FaultFinding-OTHER_TERMINAL_STATE_EXPLAIN_Q.sbj36-l1.qa155	terminal 4 , terminal 5 and terminal 6 are connected to the positive battery terminal
+FaultFinding-OTHER_TERMINAL_STATE_EXPLAIN_Q.sbjb1-l1.qa123	they are connected to the same positive battery terminal .
+FaultFinding-OTHER_TERMINAL_STATE_EXPLAIN_Q.sbjb6-l1.qa121	because they are positive
+FaultFinding-OTHER_TERMINAL_STATE_EXPLAIN_Q.sbjb12-l1.qa123	yes
+FaultFinding-OTHER_TERMINAL_STATE_EXPLAIN_Q.sbjb17-l1.qa122	there is a gap in the circuit
+FaultFinding-OTHER_TERMINAL_STATE_EXPLAIN_Q.sbjb34-l1.qa118	the other terminals receive current from the positive battery terminal .
+FaultFinding-OTHER_TERMINAL_STATE_EXPLAIN_Q.sbjb35-l1.qa119	becuase they gave a reading of 1.5 v on the multimeter , but that is just becuase the meter closed the circuit . they are really in the same state as all the others i see .
+FaultFinding-OTHER_TERMINAL_STATE_EXPLAIN_Q.sbjb40-l1.qa119	they are connected to the postive .
+OTHER_TERMINAL_STATE_EXPLAIN_Q	why do you think the other terminals are being held in a different electrical state than that of the negative terminal ?
+answer133	terminals 1 , 2 and 3 are connected to the negative battery terminal
+answer134	terminals 1 , 2 and 3 are not separated from the negative battery terminal by a gap
+answer135	terminals 1 , 2 and 3 are not connected to the positive battery terminal
+answer136	terminals 1 , 2 and 3 are separated from the positive battery terminal by a gap
+FaultFinding-TERMINAL_STATE_EXPLAIN_Q.sbj8-l1.qa162	because they are connected to the negative terminal
+FaultFinding-TERMINAL_STATE_EXPLAIN_Q.sbj9-l1.qa132	1 , 2 , and 3 have 0 volts . the negative battery terminal has 0 volts .
+FaultFinding-TERMINAL_STATE_EXPLAIN_Q.sbj9-l1.qa134	1 , 2 , and 3 show 0 volts .
+FaultFinding-TERMINAL_STATE_EXPLAIN_Q.sbj13-l1.qa157	because they are not connected to the positive terminal .
+FaultFinding-TERMINAL_STATE_EXPLAIN_Q.sbj14-l1.qa154	because there is a gap caused by damaged bulb b .
+FaultFinding-TERMINAL_STATE_EXPLAIN_Q.sbj24-l1.qa148	they are zero
+FaultFinding-TERMINAL_STATE_EXPLAIN_Q.sbj26-l1.qa166	a terminal is connected to the negative
+FaultFinding-TERMINAL_STATE_EXPLAIN_Q.sbj31-l1.qa143	they are on the other side of the positive terminal
+FaultFinding-TERMINAL_STATE_EXPLAIN_Q.sbj36-l1.qa152	1 2 and 3 are on the negative side
+FaultFinding-TERMINAL_STATE_EXPLAIN_Q.sbj42-l1.qa149	the path is not closed .
+FaultFinding-TERMINAL_STATE_EXPLAIN_Q.sbj46-l1.qa151	a connected to negative
+FaultFinding-TERMINAL_STATE_EXPLAIN_Q.sbj47-l1.qa167	they are closest to each other
+FaultFinding-TERMINAL_STATE_EXPLAIN_Q.sbjb12-l1.qa122	yes
+FaultFinding-TERMINAL_STATE_EXPLAIN_Q.sbjb13-l1.qa119	because the other side of the terminal is 1.5 volts .
+FaultFinding-TERMINAL_STATE_EXPLAIN_Q.sbjb27-l1.qa117	because the path in the circuit to the positive battery terminal is disrupted by bulb b
+FaultFinding-TERMINAL_STATE_EXPLAIN_Q.sbjb32-l1.qa121	because they all read as not receiving electricity from the negative terminal .
+FaultFinding-TERMINAL_STATE_EXPLAIN_Q.sbjb37-l1.qa117	there is a gap between the negative and positive due to blub b
+FaultFinding-TERMINAL_STATE_EXPLAIN_Q.sbjb42-l1.qa120	because their voltages are 0 , indicating there is no difference between the states
+TERMINAL_STATE_EXPLAIN_Q	why do you think those terminals and the negative battery terminal are in the same state ?
+answer191	the bulb is damaged
+answer192	the terminals are not connected
+answer193	there is a gap
+answer194	the terminals are separated by a gap
+FaultFinding-VOLTAGE_AND_GAP_DISCUSS_Q.sbj8-l1.qa210	there is a gap
+FaultFinding-VOLTAGE_AND_GAP_DISCUSS_Q.sbj14-l1.qa195	kjflkgjg
+FaultFinding-VOLTAGE_AND_GAP_DISCUSS_Q.sbj24-l1.qa204	the bulb prior to when the reading jumps to 1.5 is damanged
+FaultFinding-VOLTAGE_AND_GAP_DISCUSS_Q.sbj26-l1.qa207	that the terminals are connected to a battery
+FaultFinding-VOLTAGE_AND_GAP_DISCUSS_Q.sbj30-l1.qa178	there is a gap .
+FaultFinding-VOLTAGE_AND_GAP_DISCUSS_Q.sbjb1-l1.qa153	the terminal is connected to a different terminal .
+FaultFinding-VOLTAGE_AND_GAP_DISCUSS_Q.sbjb19-l1.qa151	that the terminal on one side is connected and the other is not connected
+VOLTAGE_AND_GAP_DISCUSS_Q	as you move the multimeter leads from one bulb terminal to the next , what does it mean when the voltage reading jumps from 0 to 1.5 ?
+answer244	voltage is the difference in electrical states between two terminals
+FaultFinding-VOLTAGE_DEFINE_Q.sbj10-l1.qa239	electricity
+FaultFinding-VOLTAGE_DEFINE_Q.sbj13-l1.qa245	a measurement of electricity between a positive and negative terminal
+FaultFinding-VOLTAGE_DEFINE_Q.sbj15-l1.qa253	the measurement of power
+FaultFinding-VOLTAGE_DEFINE_Q.sbj23-l1.qa206	the difference in electrical state between terminals .
+FaultFinding-VOLTAGE_DEFINE_Q.sbj26-l1.qa254	god
+FaultFinding-VOLTAGE_DEFINE_Q.sbj27-l1.qa231	the measurement of electricity
+FaultFinding-VOLTAGE_DEFINE_Q.sbj33-l1.qa219	tell answer
+FaultFinding-VOLTAGE_DEFINE_Q.sbj34-l1.qa208	the difference in electrical state
+FaultFinding-VOLTAGE_DEFINE_Q.sbj38-l1.qa207	the difference is electrical states
+FaultFinding-VOLTAGE_DEFINE_Q.sbj42-l1.qa240	the difference in the terminals of a battery .
+FaultFinding-VOLTAGE_DEFINE_Q.sbjb6-l1.qa180	the difference between the positive and negative side
+FaultFinding-VOLTAGE_DEFINE_Q.sbjb9-l1.qa193	voltage is the difference between the electrical states between two terminals .
+FaultFinding-VOLTAGE_DEFINE_Q.sbjb17-l1.qa181	the difference between the electrical states of two terminals
+VOLTAGE_DEFINE_Q	what is voltage ?
+answer186	the terminals are connected
+answer187	the terminals are not separated by a gap
+answer188	there is no gap between the terminals
+answer188.1	the terminals are in the same state .
+FaultFinding-VOLTAGE_DIFF_DISCUSS_1_Q.sbj8-l1.qa201	there is a gap
+FaultFinding-VOLTAGE_DIFF_DISCUSS_1_Q.sbj8-l1.qa202	a bulb creates a gap between itself and the battery terminal
+FaultFinding-VOLTAGE_DIFF_DISCUSS_1_Q.sbj8-l1.qa203	give me a hint
+FaultFinding-VOLTAGE_DIFF_DISCUSS_1_Q.sbj12-l1.qa166	there is no voltage between the two terminals
+FaultFinding-VOLTAGE_DIFF_DISCUSS_1_Q.sbj22-l1.qa191	they are in different states
+FaultFinding-VOLTAGE_DIFF_DISCUSS_1_Q.sbj29-l1.qa184	they are not connected
+FaultFinding-VOLTAGE_DIFF_DISCUSS_1_Q.sbj29-l1.qa185	they are connected .
+FaultFinding-VOLTAGE_DIFF_DISCUSS_1_Q.sbj31-l1.qa186	the bulb terminal and the battery terminal are connected
+FaultFinding-VOLTAGE_DIFF_DISCUSS_1_Q.sbj33-l1.qa176	the terminal is connected to the negative voltage terminal
+FaultFinding-VOLTAGE_DIFF_DISCUSS_1_Q.sbj33-l1.qa177	tell me the answer
+FaultFinding-VOLTAGE_DIFF_DISCUSS_1_Q.sbj38-l1.qa167	there is no difference between the elactrical states and also that there is a gap in the curcuit
+FaultFinding-VOLTAGE_DIFF_DISCUSS_1_Q.sbj38-l1.qa169	the terminals are separated by a gap and the battery terminal and bulb terminal are on the same side of the gap
+FaultFinding-VOLTAGE_DIFF_DISCUSS_1_Q.sbj45-l1.qa174	there is a damaged bulb
+FaultFinding-VOLTAGE_DIFF_DISCUSS_1_Q.sbjb1-l1.qa150	there is a short circuit between the connection of the bulb terminal and a battery terminal .
+FaultFinding-VOLTAGE_DIFF_DISCUSS_1_Q.sbjb11-l1.qa147	that the bulb is connected to the positive end of the terminal
+FaultFinding-VOLTAGE_DIFF_DISCUSS_1_Q.sbjb15-l1.qa146	that they are connected ; no gap
+FaultFinding-VOLTAGE_DIFF_DISCUSS_1_Q.sbjb26-l1.qa145	they share an electrical state .
+FaultFinding-VOLTAGE_DIFF_DISCUSS_1_Q.sbjb42-l1.qa147	the two terminals are in the same electrical state .
+VOLTAGE_DIFF_DISCUSS_1_Q	what does a voltage reading of 0 tell you about the connection between a bulb terminal and a battery terminal ?
+answer189	the terminals are not connected
+answer190	the terminals are separated by a gap
+answer190.1	the terminals are separated .
+answer190.2	there is a gap .
+answer190.NEW	the terminals are in different electrical states .
+FaultFinding-VOLTAGE_DIFF_DISCUSS_2_Q.sbj7-l1.qa169	the terminals are not connected to each other
+FaultFinding-VOLTAGE_DIFF_DISCUSS_2_Q.sbj10-l1.qa192	the bulb is working
+FaultFinding-VOLTAGE_DIFF_DISCUSS_2_Q.sbj13-l1.qa203	i don '' t know .
+FaultFinding-VOLTAGE_DIFF_DISCUSS_2_Q.sbj27-l1.qa190	the terminals are separated by a gap
+FaultFinding-VOLTAGE_DIFF_DISCUSS_2_Q.sbj39-l1.qa206	teh terminals are connected to each other
+FaultFinding-VOLTAGE_DIFF_DISCUSS_2_Q.sbj48-l1.qa172	they are separated
+FaultFinding-VOLTAGE_DIFF_DISCUSS_2_Q.sbjb18-l1.qa157	they are not connected to eachother
+FaultFinding-VOLTAGE_DIFF_DISCUSS_2_Q.sbjb24-l1.qa153	its working
+FaultFinding-VOLTAGE_DIFF_DISCUSS_2_Q.sbjb35-l1.qa146	both the bulb and battery terminals are connected to each other .
+VOLTAGE_DIFF_DISCUSS_2_Q	what does a voltage reading of 1.5 tell you about the connection between a bulb terminal and a battery terminal ?
+answer154	terminal 1 and the positive terminal are separated by the gap
+answer155	terminal 1 and the positive terminal are not connected
+answer156	terminal 1 is connected to the negative battery terminal
+answer157	terminal 1 is not separated from the negative battery terminal
+answer157.NEW	terminal 1 and the positive battery terminal are in different electrical states
+FaultFinding-VOLTAGE_GAP_EXPLAIN_WHY1.sbj7-l1.qa156	there is a gap between terminal 1 and the positive terminal
+FaultFinding-VOLTAGE_GAP_EXPLAIN_WHY1.sbj15-l1.qa194	because i dont know
+FaultFinding-VOLTAGE_GAP_EXPLAIN_WHY1.sbj18-l1.qa157	terminal 1 is not connected to the positive battery terminal .
+FaultFinding-VOLTAGE_GAP_EXPLAIN_WHY1.sbj34-l1.qa153	the positive terminal has a 1.5 v charge and terminal one has a 0.00 v
+FaultFinding-VOLTAGE_GAP_EXPLAIN_WHY1.sbj35-l1.qa169	there was a gap between terminal 1 and the positive terminal .
+FaultFinding-VOLTAGE_GAP_EXPLAIN_WHY1.sbj36-l1.qa176	the bulb isnt connected to the positive battery terminal
+FaultFinding-VOLTAGE_GAP_EXPLAIN_WHY1.sbj42-l1.qa168	terminal 1 is connected to the positive terminal .
+FaultFinding-VOLTAGE_GAP_EXPLAIN_WHY1.sbj45-l1.qa160	because the meter measures the difference between the two terminals
+FaultFinding-VOLTAGE_GAP_EXPLAIN_WHY1.sbjb4-l1.qa136	because terminal 1 is connected to the negative battery terminal
+FaultFinding-VOLTAGE_GAP_EXPLAIN_WHY1.sbjb5-l1.qa145	the leads of the voltmeter were reversed . therefore , the voltages were also reversed .
+FaultFinding-VOLTAGE_GAP_EXPLAIN_WHY1.sbjb24-l1.qa143	because you are measuring the + current
+FaultFinding-VOLTAGE_GAP_EXPLAIN_WHY1.sbjb26-l1.qa136	because terminal 1 is connected to the negative battery terminal .
+FaultFinding-VOLTAGE_GAP_EXPLAIN_WHY1.sbjb35-l1.qa136	because the voltage of the battery on the closed circuit is the same as the batterys original voltage .
+FaultFinding-VOLTAGE_GAP_EXPLAIN_WHY1.sbjb38-l1.qa136	because terminal 1 was connected to the negative terminal of the battery
+VOLTAGE_GAP_EXPLAIN_WHY1	explain why you got a voltage reading of 1.5 for terminal 1 and the positive terminal .
+answer162	terminal 3 and the positive terminal are separated by the gap
+answer163	terminal 3 and the positive terminal are not connected
+answer164	terminal 3 is connected to the negative battery terminal
+answer165	terminal 3 is not separated from the negative battery terminal
+answer165.NEW	terminal 3 and the positive battery terminal are in different electrical states
+FaultFinding-VOLTAGE_GAP_EXPLAIN_WHY3.sbjb4-l1.qa138	there is still the same gap
+FaultFinding-VOLTAGE_GAP_EXPLAIN_WHY3.sbjb21-l1.qa137	seperated by a gap in terminal 3
+VOLTAGE_GAP_EXPLAIN_WHY3	explain why you got a voltage reading of 1.5 for terminal 3 and the positive terminal .
+answer166	terminal 4 and the positive terminal are connected
+answer167	terminal 4 and the positive terminal are not separated by the gap
+answer168	there is no gap between terminal 4 and the positive terminal
+answer169	terminal 4 is not connected to the negative battery terminal
+answer170	terminal 4 is separated by a gap from the negative battery terminal
+answer170.NEW	terminal 4 and the positive battery terminal are in the same electrical state
+FaultFinding-VOLTAGE_GAP_EXPLAIN_WHY4.sbj7-l1.qa159	there is no gap between terminal 4 and the positive terminal
+FaultFinding-VOLTAGE_GAP_EXPLAIN_WHY4.sbj13-l1.qa188	there is a gap between the positive battery terminal and terminal 4 .
+FaultFinding-VOLTAGE_GAP_EXPLAIN_WHY4.sbj24-l1.qa182	the terminal is conntected to postive end of battery
+FaultFinding-VOLTAGE_GAP_EXPLAIN_WHY4.sbj39-l1.qa192	the terminals are blocked by a gap
+FaultFinding-VOLTAGE_GAP_EXPLAIN_WHY4.sbjb4-l1.qa139	there is no difference in the two terminals . they are in a closed path
+FaultFinding-VOLTAGE_GAP_EXPLAIN_WHY4.sbjb18-l1.qa150	i dont know
+FaultFinding-VOLTAGE_GAP_EXPLAIN_WHY4.sbjb21-l1.qa138	seperted by gap in terminal 4
+FaultFinding-VOLTAGE_GAP_EXPLAIN_WHY4.sbjb25-l1.qa143	because it was attached to the negative terminal .
+FaultFinding-VOLTAGE_GAP_EXPLAIN_WHY4.sbjb27-l1.qa138	terminal 4 is connected only to the positive battery terminal
+FaultFinding-VOLTAGE_GAP_EXPLAIN_WHY4.sbjb29-l1.qa142	the positive battery terminal is connected in circuit with terminal 4
+FaultFinding-VOLTAGE_GAP_EXPLAIN_WHY4.sbjb30-l1.qa143	terminal 4 is not connected to the negative terminal because of a gap in bulb b .
+FaultFinding-VOLTAGE_GAP_EXPLAIN_WHY4.sbjb36-l1.qa138	the positive battery terminal was not separated by a gap from terminal 4 .
+VOLTAGE_GAP_EXPLAIN_WHY4	explain why you got a voltage reading of 0 for terminal 4 and the positive terminal .
+answer171	terminal 5 and the positive terminal are connected
+answer172	terminal 5 and the positive terminal are not separated by the gap
+answer173	there is no gap between terminal 5 and the positive terminal
+answer174	terminal 5 is not connected to the negative battery terminal
+answer175	terminal 5 is separated by a gap from the negative battery terminal
+answer175.NEW	terminal 5 and the positive battery terminal are in the same electrical state
+FaultFinding-VOLTAGE_GAP_EXPLAIN_WHY5.sbj38-l1.qa160	the positive terminal is connected to terminal 5
+FaultFinding-VOLTAGE_GAP_EXPLAIN_WHY5.sbj40-l1.qa188	terminal 5 and the positive terminal are connected .
+FaultFinding-VOLTAGE_GAP_EXPLAIN_WHY5.sbjb4-l1.qa140	same answer as for terminal 4 and the positive terminal
+VOLTAGE_GAP_EXPLAIN_WHY5	explain why you got a voltage reading of 0 for terminal 5 and the positive terminal .
+answer176	terminal 6 and the positive terminal are connected
+answer177	terminal 6 and the positive terminal are not separated by the gap
+answer178	there is no gap between terminal 6 and the positive terminal
+answer179	terminal 6 is not connected to the negative battery terminal
+answer180	terminal 6 is separated by a gap from the negative battery terminal
+answer180.NEW	terminal 6 and the positive battery terminal are in the same electrical state
+FaultFinding-VOLTAGE_GAP_EXPLAIN_WHY6.sbjb4-l1.qa141	same answer as for terminal 4
+FaultFinding-VOLTAGE_GAP_EXPLAIN_WHY6.sbjb6-l1.qa143	terminal 6 is connected to the postive battery terminal
+FaultFinding-VOLTAGE_GAP_EXPLAIN_WHY6.sbjb34-l1.qa140	terminal 6 and the positive battery terminal are in the same state .
+VOLTAGE_GAP_EXPLAIN_WHY6	explain why you got a voltage reading of 0 for terminal 6 and the positive terminal .
+answer246	a battery uses a chemical reaction to maintain different electrical states at the terminals
+FaultFinding-VOLTAGE_INCOMPLETE_CIRCUIT_2_Q.sbj8-l1.qa254	because the circuit does not effect the voltage
+FaultFinding-VOLTAGE_INCOMPLETE_CIRCUIT_2_Q.sbj8-l1.qa256	a battery uses electricity
+FaultFinding-VOLTAGE_INCOMPLETE_CIRCUIT_2_Q.sbj12-l1.qa207	the battery is not damaged
+FaultFinding-VOLTAGE_INCOMPLETE_CIRCUIT_2_Q.sbj13-l1.qa251	the battery has a positive and a negative chemical reaction .
+FaultFinding-VOLTAGE_INCOMPLETE_CIRCUIT_2_Q.sbj15-l1.qa257	because there is a difference in the electrical state between the two terminals
+FaultFinding-VOLTAGE_INCOMPLETE_CIRCUIT_2_Q.sbj24-l1.qa258	some things never change
+FaultFinding-VOLTAGE_INCOMPLETE_CIRCUIT_2_Q.sbj27-l1.qa237	the battery still has it '' s chemical reaction
+FaultFinding-VOLTAGE_INCOMPLETE_CIRCUIT_2_Q.sbj30-l1.qa222	idk
+FaultFinding-VOLTAGE_INCOMPLETE_CIRCUIT_2_Q.sbj31-l1.qa228	because the electrical state difference is still there
+FaultFinding-VOLTAGE_INCOMPLETE_CIRCUIT_2_Q.sbj43-l1.qa224	it always has the same voltage
+FaultFinding-VOLTAGE_INCOMPLETE_CIRCUIT_2_Q.sbj45-l1.qa219	the battery has an electrical state
+FaultFinding-VOLTAGE_INCOMPLETE_CIRCUIT_2_Q.sbjb31-l1.qa179	because voltage remains with complete and incomplete circuits . because the terminals are not connected to each other .
+FaultFinding-VOLTAGE_INCOMPLETE_CIRCUIT_2_Q.sbjb35-l1.qa181	because battery voltage is a constant
+FaultFinding-VOLTAGE_INCOMPLETE_CIRCUIT_2_Q.sbjb40-l1.qa180	there would be a greater difference
+FaultFinding-VOLTAGE_INCOMPLETE_CIRCUIT_2_Q.sbjb41-l1.qa182	because the battery is filled with its own chemical reactions .
+VOLTAGE_INCOMPLETE_CIRCUIT_2_Q	why ?
+answer348	bulbs b and c are still in closed paths with the battery
+answer349	if bulb a burns out , bulbs b and c are still in a closed path
+answer351	each bulb is in its own path
+SwitchesBulbsParallel-BURNED_BULB_PARALLEL_EXPLAIN_Q1.sbj13-l2.qa95	they are in a different path of bulb a .
+SwitchesBulbsParallel-BURNED_BULB_PARALLEL_EXPLAIN_Q1.sbj13-l2.qa96	bulb a is not in the same path of bulbs b and c .
+SwitchesBulbsParallel-BURNED_BULB_PARALLEL_EXPLAIN_Q1.sbj27-l2.qa91	because bulbs b and c have their own closed paths
+SwitchesBulbsParallel-BURNED_BULB_PARALLEL_EXPLAIN_Q1.sbj31-l2.qa96	b c are paralled to a
+SwitchesBulbsParallel-BURNED_BULB_PARALLEL_EXPLAIN_Q1.sbj38-l2.qa84	if bulb a burns out , bulb a does not make a gap in the closed path of bulb b or bulb c
+SwitchesBulbsParallel-BURNED_BULB_PARALLEL_EXPLAIN_Q1.sbj47-l2.qa94	thy are in three separate paths
+SwitchesBulbsParallel-BURNED_BULB_PARALLEL_EXPLAIN_Q1.sbj48-l2.qa87	bulbs b and c will still be contained in a closed path with the battery
+SwitchesBulbsParallel-BURNED_BULB_PARALLEL_EXPLAIN_Q1.sbjb6-l2.qa76	because b and c will both still be in a closed circuit
+SwitchesBulbsParallel-BURNED_BULB_PARALLEL_EXPLAIN_Q1.sbjb10-l2.qa76	because b and c still have a closed path
+SwitchesBulbsParallel-BURNED_BULB_PARALLEL_EXPLAIN_Q1.sbjb30-l2.qa76	bulbs b and c are still contained in a closed path with the battery .
+SwitchesBulbsParallel-BURNED_BULB_PARALLEL_EXPLAIN_Q1.sbjb37-l2.qa77	it has its own bath that is connected to the battery
+BURNED_BULB_PARALLEL_EXPLAIN_Q1	explain your reasoning .
+answer353	bulbs a and c are still in closed paths with the battery
+answer354	bulbs a and c are in a closed path
+answer355	each bulb is in its own path
+answer356	bulb b is in a separate path
+SwitchesBulbsParallel-BURNED_BULB_PARALLEL_EXPLAIN_Q2.sbj9-l2.qa87	bulb a will be in a closed path . bulb c will be in a closed path .
+SwitchesBulbsParallel-BURNED_BULB_PARALLEL_EXPLAIN_Q2.sbj19-l2.qa110	bulb b is in the same path
+SwitchesBulbsParallel-BURNED_BULB_PARALLEL_EXPLAIN_Q2.sbj23-l2.qa91	there is still a closed path that contains the battery , bulb a , and bulb c .
+SwitchesBulbsParallel-BURNED_BULB_PARALLEL_EXPLAIN_Q2.sbjb5-l2.qa78	bulbs a and c will still be on a closed path with the battery
+SwitchesBulbsParallel-BURNED_BULB_PARALLEL_EXPLAIN_Q2.sbjb22-l2.qa78	different path
+SwitchesBulbsParallel-BURNED_BULB_PARALLEL_EXPLAIN_Q2.sbjb38-l2.qa78	bulbs a and c will still have closed circuits with both terminals of the battery .
+BURNED_BULB_PARALLEL_EXPLAIN_Q2	explain your reasoning .
+answer358	bulbs a and b are still in closed paths with the battery
+answer359	bulbs a and b are in a closed path
+answer360	each bulb is in its own path
+answer361	bulb c is in a separate path
+SwitchesBulbsParallel-BURNED_BULB_PARALLEL_EXPLAIN_Q3.sbj15-l2.qa110	because the terminal will be closed
+SwitchesBulbsParallel-BURNED_BULB_PARALLEL_EXPLAIN_Q3.sbj36-l2.qa90	there is still a closed path
+SwitchesBulbsParallel-BURNED_BULB_PARALLEL_EXPLAIN_Q3.sbj38-l2.qa89	bulb c is not in the same path as bulb a or bulb b so the gap in the path does not affect bulb a or bulb b
+SwitchesBulbsParallel-BURNED_BULB_PARALLEL_EXPLAIN_Q3.sbj40-l2.qa101	bulbs a and b are still contained in a closed path with the battery .
+SwitchesBulbsParallel-BURNED_BULB_PARALLEL_EXPLAIN_Q3.sbjb6-l2.qa80	a and b are still in a closed circuit
+SwitchesBulbsParallel-BURNED_BULB_PARALLEL_EXPLAIN_Q3.sbjb29-l2.qa81	because each bulb has its own pathway
+SwitchesBulbsParallel-BURNED_BULB_PARALLEL_EXPLAIN_Q3.sbjb31-l2.qa80	because they will still be in a closed circuit with the battery
+BURNED_BULB_PARALLEL_EXPLAIN_Q3	explain your reasoning .
+answer366	bulbs a and c are still contained in closed paths with the battery
+answer367	bulbs a and c are still in closed paths
+answer368	b is not in their paths
+answer369	a , b and c are in different paths
+SwitchesBulbsParallel-BURNED_BULB_PARALLEL_WHY_Q.sbj15-l2.qa119	because yyou are retarded
+SwitchesBulbsParallel-BURNED_BULB_PARALLEL_WHY_Q.sbj29-l2.qa107	bulbs a and c were not in a closed path with bulb b
+SwitchesBulbsParallel-BURNED_BULB_PARALLEL_WHY_Q.sbj31-l2.qa109	a and c are in a closed path with the battery
+SwitchesBulbsParallel-BURNED_BULB_PARALLEL_WHY_Q.sbjb16-l2.qa88	because they are in seperate paths
+SwitchesBulbsParallel-BURNED_BULB_PARALLEL_WHY_Q.sbjb19-l2.qa87	because bulb b is not in the same path as the other bulbs
+SwitchesBulbsParallel-BURNED_BULB_PARALLEL_WHY_Q.sbjb40-l2.qa87	they had a direct contained path
+BURNED_BULB_PARALLEL_WHY_Q	why didn^t bulbs a and c go out after bulb b burned out ?
+answer423	a and c are in different paths with the battery
+answer424	a and c are not in the same path with the battery
+answer425	a and c are in different paths
+answer426	a and c are not in the same path
+SwitchesBulbsParallel-GIVE_CIRCUIT_TYPE_HYBRID_EXPLAIN_Q2.sbj18-l2.qa134	bulbs a and c are in separate closed paths with the battery
+SwitchesBulbsParallel-GIVE_CIRCUIT_TYPE_HYBRID_EXPLAIN_Q2.sbj19-l2.qa174	bulb c is contained in a closed circuit
+SwitchesBulbsParallel-GIVE_CIRCUIT_TYPE_HYBRID_EXPLAIN_Q2.sbj33-l2.qa143	bulbs a and c are on different baths with the battery
+SwitchesBulbsParallel-GIVE_CIRCUIT_TYPE_HYBRID_EXPLAIN_Q2.sbjb36-l2.qa122	they are in different closed paths and dont effect each other
+GIVE_CIRCUIT_TYPE_HYBRID_EXPLAIN_Q2	explain your reasoning .
+answer428	b and c are in the same path with the battery
+answer429	b and c are in the same path
+SwitchesBulbsParallel-GIVE_CIRCUIT_TYPE_HYBRID_EXPLAIN_Q3.sbj8-l2.qa150	conatined within the same path as the battery
+SwitchesBulbsParallel-GIVE_CIRCUIT_TYPE_HYBRID_EXPLAIN_Q3.sbj28-l2.qa151	closed path
+SwitchesBulbsParallel-GIVE_CIRCUIT_TYPE_HYBRID_EXPLAIN_Q3.sbj29-l2.qa153	bulbs b and c are contained in a closed path
+SwitchesBulbsParallel-GIVE_CIRCUIT_TYPE_HYBRID_EXPLAIN_Q3.sbjb3-l2.qa131	they are contained in the same path as each other
+SwitchesBulbsParallel-GIVE_CIRCUIT_TYPE_HYBRID_EXPLAIN_Q3.sbjb4-l2.qa124	they are on the same path
+SwitchesBulbsParallel-GIVE_CIRCUIT_TYPE_HYBRID_EXPLAIN_Q3.sbjb19-l2.qa126	because the outcome of the bulb will affect the other
+SwitchesBulbsParallel-GIVE_CIRCUIT_TYPE_HYBRID_EXPLAIN_Q3.sbjb30-l2.qa124	bulbs b and c are contained in the same closed path .
+SwitchesBulbsParallel-GIVE_CIRCUIT_TYPE_HYBRID_EXPLAIN_Q3.sbjb34-l2.qa125	bulb b and bulb c are contained in the same closed path with the battery .
+GIVE_CIRCUIT_TYPE_HYBRID_EXPLAIN_Q3	explain your reasoning .
+answer418	a and c are in different paths with the battery
+answer419	a and c are not in the same path with the battery
+answer420	a and c are in different paths
+answer421	a and c are not in the same path
+SwitchesBulbsParallel-GIVE_CIRCUIT_TYPE_PARALLEL_EXPLAIN_Q2.sbj15-l2.qa167	you are stupid
+SwitchesBulbsParallel-GIVE_CIRCUIT_TYPE_PARALLEL_EXPLAIN_Q2.sbj19-l2.qa169	bulb a is contained in a closed path
+SwitchesBulbsParallel-GIVE_CIRCUIT_TYPE_PARALLEL_EXPLAIN_Q2.sbj23-l2.qa142	bulb a is in a different path from bulb b and bulb c .
+SwitchesBulbsParallel-GIVE_CIRCUIT_TYPE_PARALLEL_EXPLAIN_Q2.sbj28-l2.qa143	open paths
+SwitchesBulbsParallel-GIVE_CIRCUIT_TYPE_PARALLEL_EXPLAIN_Q2.sbj40-l2.qa149	i give up .
+SwitchesBulbsParallel-GIVE_CIRCUIT_TYPE_PARALLEL_EXPLAIN_Q2.sbj47-l2.qa149	bulb a and bulb c are contained within different closed paths
+SwitchesBulbsParallel-GIVE_CIRCUIT_TYPE_PARALLEL_EXPLAIN_Q2.sbjb11-l2.qa119	bulbs a , b , and c are not contained within the same path
+SwitchesBulbsParallel-GIVE_CIRCUIT_TYPE_PARALLEL_EXPLAIN_Q2.sbjb18-l2.qa119	it is
+SwitchesBulbsParallel-GIVE_CIRCUIT_TYPE_PARALLEL_EXPLAIN_Q2.sbjb19-l2.qa121	because they are all in a different path
+SwitchesBulbsParallel-GIVE_CIRCUIT_TYPE_PARALLEL_EXPLAIN_Q2.sbjb31-l2.qa119	because they are not in a closed path
+SwitchesBulbsParallel-GIVE_CIRCUIT_TYPE_PARALLEL_EXPLAIN_Q2.sbjb35-l2.qa121	because the bulbs are on their own closed pathways
+GIVE_CIRCUIT_TYPE_PARALLEL_EXPLAIN_Q2	explain your reasoning .
+answer371	if bulb a burns out , b and c are no longer in a closed path with the battery
+answer373	if bulb a burns out , there is no longer a closed path containing b , c and the battery
+answer375	if bulb a burns out , neither b nor c is in a closed path
+SwitchesBulbsParallel-HYBRID_BURNED_OUT_EXPLAIN_Q1.sbj15-l2.qa123	because the paths will still be closed
+SwitchesBulbsParallel-HYBRID_BURNED_OUT_EXPLAIN_Q1.sbj19-l2.qa123	they are in different paths
+SwitchesBulbsParallel-HYBRID_BURNED_OUT_EXPLAIN_Q1.sbj23-l2.qa103	there is a gap in the path .
+SwitchesBulbsParallel-HYBRID_BURNED_OUT_EXPLAIN_Q1.sbj34-l2.qa112	bulbs b and c will no longer be contained in a closed path
+SwitchesBulbsParallel-HYBRID_BURNED_OUT_EXPLAIN_Q1.sbjb35-l2.qa92	becuase bulb a breaks the pathway for all bulbs to the battery .
+HYBRID_BURNED_OUT_EXPLAIN_Q1	explain your reasoning .
+answer383	if c burns out , then a and b are still in a closed path with the battery .
+answer385	if c burns out , then a and b are still in a closed path .
+SwitchesBulbsParallel-HYBRID_BURNED_OUT_EXPLAIN_Q3.sbj38-l2.qa106	bulb a and bulb b are still in a closed path with the battery .
+SwitchesBulbsParallel-HYBRID_BURNED_OUT_EXPLAIN_Q3.sbjb16-l2.qa95	can still be in a closed path with the battery
+SwitchesBulbsParallel-HYBRID_BURNED_OUT_EXPLAIN_Q3.sbjb18-l2.qa94	closed pathway with the battery
+SwitchesBulbsParallel-HYBRID_BURNED_OUT_EXPLAIN_Q3.sbjb21-l2.qa94	seperate circuits
+SwitchesBulbsParallel-HYBRID_BURNED_OUT_EXPLAIN_Q3.sbjb41-l2.qa95	bulbs a and b are still contained in a closed path to the battery .
+HYBRID_BURNED_OUT_EXPLAIN_Q3	explain your reasoning .
+answer396	if c burns out then a and b are still in a closed path with the battery
+answer397	there is a closed path with a and b that c is not in .
+answer398	if c is damaged , a and b are still in a closed path
+answer400	a and b have their own path
+answer401	there is still a closed path
+SwitchesBulbsParallel-HYBRID_BURNED_OUT_WHY_Q2.sbj11-l2.qa117	because bulb a and b are still contained in the closed path with the battery .
+SwitchesBulbsParallel-HYBRID_BURNED_OUT_WHY_Q2.sbj19-l2.qa139	contain in a closed path
+SwitchesBulbsParallel-HYBRID_BURNED_OUT_WHY_Q2.sbj26-l2.qa129	because bulb c is not contained in a closed path with the battery
+SwitchesBulbsParallel-HYBRID_BURNED_OUT_WHY_Q2.sbj37-l2.qa111	bulb a and bulb c are still contained in a closed path with the battery
+SwitchesBulbsParallel-HYBRID_BURNED_OUT_WHY_Q2.sbj37-l2.qa112	bulb a and bulb b are still contained in closed path with the battery
+SwitchesBulbsParallel-HYBRID_BURNED_OUT_WHY_Q2.sbjb1-l2.qa103	they are contained in a closed path with the battery .
+SwitchesBulbsParallel-HYBRID_BURNED_OUT_WHY_Q2.sbjb2-l2.qa105	there is still a closed path .
+SwitchesBulbsParallel-HYBRID_BURNED_OUT_WHY_Q2.sbjb9-l2.qa103	they were still contained on closed paths to battery .
+SwitchesBulbsParallel-HYBRID_BURNED_OUT_WHY_Q2.sbjb10-l2.qa102	because c is in parallel
+SwitchesBulbsParallel-HYBRID_BURNED_OUT_WHY_Q2.sbjb39-l2.qa102	becuase bulbs a and b are still in a closed path .
+HYBRID_BURNED_OUT_WHY_Q2	why do both bulbs a and b stay on when bulb c is burned out ?
+answer402	if they are in the same path the burned out bulb affects the other bulb .
+answer404	it depends on whether or not they are in the same path
+answer405	the damaged bulb and the other bulb must be contained in the same path
+SwitchesBulbsParallel-HYBRID_BURNED_OUT_WHY_Q3.sbj15-l2.qa145	the path is not on the same as the battery
+SwitchesBulbsParallel-HYBRID_BURNED_OUT_WHY_Q3.sbj27-l2.qa128	if it is in the same closed path with the battery
+SwitchesBulbsParallel-HYBRID_BURNED_OUT_WHY_Q3.sbj28-l2.qa120	if they are on the same path
+SwitchesBulbsParallel-HYBRID_BURNED_OUT_WHY_Q3.sbjb2-l2.qa106	when there is a gap in the circuit
+SwitchesBulbsParallel-HYBRID_BURNED_OUT_WHY_Q3.sbjb24-l2.qa107	if it creates a gap in the path
+HYBRID_BURNED_OUT_WHY_Q3	under what circumstances will a damaged/ burned out bulb affect another bulb ?
+answer333	there is still a closed path containing switch z , switch x , bulbs a and c and the battery
+answer334	there is a path containing a , c , z and the battery
+answer335	there is a path containing a , c , z and x
+answer336	there is a path containing a
+answer337	bulb a is still in a closed path with the battery
+SwitchesBulbsParallel-OPT1_EXPLAIN_Q2.sbj8-l2.qa79	because bulb a is in the path of switch x
+SwitchesBulbsParallel-OPT1_EXPLAIN_Q2.sbj14-l2.qa78	because bulb a is in a closed path with the positive battery terminal .
+SwitchesBulbsParallel-OPT1_EXPLAIN_Q2.sbj23-l2.qa80	switch z and x needs to be closed .
+SwitchesBulbsParallel-OPT1_EXPLAIN_Q2.sbj36-l2.qa75	switch z can close the path for bulb a
+SwitchesBulbsParallel-OPT1_EXPLAIN_Q2.sbj38-l2.qa74	if switch z is closed there is a battery and bulb a contained in a closed path .
+SwitchesBulbsParallel-OPT1_EXPLAIN_Q2.sbj39-l2.qa89	if switch z is closed then it makes a closed path with the battery
+SwitchesBulbsParallel-OPT1_EXPLAIN_Q2.sbj39-l2.qa90	different paths
+SwitchesBulbsParallel-OPT1_EXPLAIN_Q2.sbj40-l2.qa85	bulb a is in a closed path without switch y .
+SwitchesBulbsParallel-OPT1_EXPLAIN_Q2.sbj48-l2.qa77	because bulb a can still be contained in a closed path with the battery even if switch y is open
+SwitchesBulbsParallel-OPT1_EXPLAIN_Q2.sbjb38-l2.qa68	a path can be made by continuing to bulb c and passing through switch z
+OPT1_EXPLAIN_Q2	why not ?
+answer412	bulb a is in a path which does not contain b and c , so bulbs b and c do n't affect it . bulbs b and c are in the same path . they affect each other , but bulb a does n't affect them .
+answer413	bulb a is in a path which does not contain b and c and is n't affected by b or c. b and c are in the same path and affect each other .
+answer414	there is a path containing a and a different path containing b and c
+SwitchesBulbsParallel-OPT2_EXPLAIN_Q.sbj9-l2.qa124	bulb a is on a closed path . bulbs b and c are on a closed circuit in series . if bulb b is damaged , then bulb c turns off . if bulb c is damaged , then bulb b turns off .
+SwitchesBulbsParallel-OPT2_EXPLAIN_Q.sbj10-l2.qa129	bulb a is on a closed circuit with the battery . if bulb b or c are damaged , neither work
+SwitchesBulbsParallel-OPT2_EXPLAIN_Q.sbj18-l2.qa124	bulb a is on a closed path with the battery . if bulb b burns out , bulb c will no longer be on a closed path with the battery .
+SwitchesBulbsParallel-OPT2_EXPLAIN_Q.sbj23-l2.qa128	bulb b and bulb c are in the same path .
+SwitchesBulbsParallel-OPT2_EXPLAIN_Q.sbj24-l2.qa125	a is in a seperate path and b and c are in the same path
+SwitchesBulbsParallel-OPT2_EXPLAIN_Q.sbj26-l2.qa147	bulb a does not affect bulbs b and c
+SwitchesBulbsParallel-OPT2_EXPLAIN_Q.sbj28-l2.qa132	circuits
+SwitchesBulbsParallel-OPT2_EXPLAIN_Q.sbj30-l2.qa134	bulb a is on one path and bulb '' s b and c are on another . therefore if bulb a goes out , it does not affect bulb b or c. but if bulb '' s b or c go out , both go out but a stays lit
+SwitchesBulbsParallel-OPT2_EXPLAIN_Q.sbj31-l2.qa138	i dont know
+SwitchesBulbsParallel-OPT2_EXPLAIN_Q.sbj37-l2.qa123	when bulb a is out , bulb b and bulb c are still in a closed path with the battery .
+SwitchesBulbsParallel-OPT2_EXPLAIN_Q.sbj39-l2.qa145	the path bulb a is on is a closed path with the battery even if bulbs b and c are out
+SwitchesBulbsParallel-OPT2_EXPLAIN_Q.sbj45-l2.qa123	there are two paths . one contans bulb a alone so it does not affect the other bulbs . the other path contains both bulb b and c so if something happens to either one it will cause them to no longer be in a closed path with the battery .
+SwitchesBulbsParallel-OPT2_EXPLAIN_Q.sbj45-l2.qa124	they are in separate paths
+SwitchesBulbsParallel-OPT2_EXPLAIN_Q.sbj45-l2.qa126	bulb b is contained in the same closed path bulb c is in with the battery
+SwitchesBulbsParallel-OPT2_EXPLAIN_Q.sbj48-l2.qa126	there are two separate paths in this diagram . one path is made up of bulb a and the battery . the second path is bulb b , bulb c , and the battery . if bulb a is out , it will not affect bulbs b and c since they will still be contained in a closed path with the battery . if bulbs b or c are out , bulb a will not be affected because it will still be contained in a closed path with the battery . if bulb b is out , bulb c will be out too since they are in the same path with the battery .
+SwitchesBulbsParallel-OPT2_EXPLAIN_Q.sbjb4-l2.qa112	bulb a is on its own path , so it doesn '' t matter if b or c are damaged , a will still be on . bulbs b and c are on the same path so if one of them goes out , the other will too . b and c are not affect
+SwitchesBulbsParallel-OPT2_EXPLAIN_Q.sbjb16-l2.qa113	there are two seperate paths . bulb a has its own path and bulb b and c are on the same path
+SwitchesBulbsParallel-OPT2_EXPLAIN_Q.sbjb30-l2.qa112	bulb a is in a closed circuit path regardless of bulbs b and c. if bulb a is burned out , bulbs b and c are still in a complete circuit path . bulb b depends on bulb c , and bulb c depends on bulb b. if bulb b is damaged , bulb c will not come on becuase it is contained in the same circuit path as bulb b. if bulb c is damaged , bulb b will not come one because it is contained in the same circuit path as bulb c .
+OPT2_EXPLAIN_Q	describe the paths in this diagram and explain how those paths account for the results .
+answer296	bulb a is still contained in a closed path with the battery .
+answer296.1	bulb a is still contained in a closed path with the battery and switch z .
+answer297	there is no path containing both switch y and bulb a
+answer298	switch y and bulb a are not in the same closed path
+SwitchesBulbsParallel-PARALLEL_SWITCH_EXPLAIN_Q1.sbj3-l2.qa42	because it had a closed path
+SwitchesBulbsParallel-PARALLEL_SWITCH_EXPLAIN_Q1.sbj8-l2.qa42	because the circuit was closed
+SwitchesBulbsParallel-PARALLEL_SWITCH_EXPLAIN_Q1.sbj11-l2.qa45	because bulb a was in a closed path .
+SwitchesBulbsParallel-PARALLEL_SWITCH_EXPLAIN_Q1.sbj12-l2.qa46	bulb a was still in a closed path
+SwitchesBulbsParallel-PARALLEL_SWITCH_EXPLAIN_Q1.sbj23-l2.qa45	bulb a is still connected to the battery in a closed path .
+SwitchesBulbsParallel-PARALLEL_SWITCH_EXPLAIN_Q1.sbj28-l2.qa44	it had a closed path
+SwitchesBulbsParallel-PARALLEL_SWITCH_EXPLAIN_Q1.sbj30-l2.qa50	swtich y is not on the same path as bulb a .
+SwitchesBulbsParallel-PARALLEL_SWITCH_EXPLAIN_Q1.sbj35-l2.qa49	the path was closed .
+SwitchesBulbsParallel-PARALLEL_SWITCH_EXPLAIN_Q1.sbj35-l2.qa51	bulb a is contained in a closed path ,
+SwitchesBulbsParallel-PARALLEL_SWITCH_EXPLAIN_Q1.sbj40-l2.qa49	bulb a was in a closed circuit with the battery .
+SwitchesBulbsParallel-PARALLEL_SWITCH_EXPLAIN_Q1.sbjb2-l2.qa43	there was still a closed circuit
+SwitchesBulbsParallel-PARALLEL_SWITCH_EXPLAIN_Q1.sbjb31-l2.qa42	because bulb a is in a closed circuit with the battery and switch z
+SwitchesBulbsParallel-PARALLEL_SWITCH_EXPLAIN_Q1.sbjb42-l2.qa42	switch z was the only one in the same path as bulb a
+PARALLEL_SWITCH_EXPLAIN_Q1	why was bulb a on when switch y was open and switch z was closed ?
+answer299	bulb c was no longer in a closed path with the battery
+answer300	there was no longer a closed path containing bulb c and the battery
+answer301	there is a path containing z and c. the open switch z creates a gap
+answer302	there is a path containing z and c. opening of switch z causes the path to be open
+answer303	there is a path containing both z and c
+answer304	a gap
+answer305	bulb c was not in a closed path
+answer306	bulb c was in no closed path
+answer307	there are no closed paths
+SwitchesBulbsParallel-PARALLEL_SWITCH_EXPLAIN_Q2.sbj3-l2.qa45	bulb c was in an open path with the battery
+SwitchesBulbsParallel-PARALLEL_SWITCH_EXPLAIN_Q2.sbj7-l2.qa45	bulb c is not contained in a closed path with the battery
+SwitchesBulbsParallel-PARALLEL_SWITCH_EXPLAIN_Q2.sbj9-l2.qa46	bulb c was not in a closed path with the battery .
+SwitchesBulbsParallel-PARALLEL_SWITCH_EXPLAIN_Q2.sbj19-l2.qa58	path for bulb c was open
+SwitchesBulbsParallel-PARALLEL_SWITCH_EXPLAIN_Q2.sbj24-l2.qa47	switch z makes the path incomplete
+SwitchesBulbsParallel-PARALLEL_SWITCH_EXPLAIN_Q2.sbj29-l2.qa49	bulb c is still contained in a closed path with the battery
+SwitchesBulbsParallel-PARALLEL_SWITCH_EXPLAIN_Q2.sbj46-l2.qa54	bulb c is contained in the path to the battery
+SwitchesBulbsParallel-PARALLEL_SWITCH_EXPLAIN_Q2.sbjb16-l2.qa43	it was not in a closed path with the battery
+SwitchesBulbsParallel-PARALLEL_SWITCH_EXPLAIN_Q2.sbjb18-l2.qa43	idk
+SwitchesBulbsParallel-PARALLEL_SWITCH_EXPLAIN_Q2.sbjb41-l2.qa43	because bulb c is contained in an opened path with the battery , which turns it off .
+PARALLEL_SWITCH_EXPLAIN_Q2	why was bulb c off when switch z was open ?
+answer310	if a bulb and a switch are in the same path the switch affects the bulb
+answer312	the switch and the bulb have to be in the same path
+SwitchesBulbsParallel-PARALLEL_SWITCH_EXPLAIN_Q3.sbj3-l2.qa48	if that switch is with the path between that bulb and the battery
+SwitchesBulbsParallel-PARALLEL_SWITCH_EXPLAIN_Q3.sbj11-l2.qa50	the switch , the bulb , and the battery have to be contained in the closed path .
+SwitchesBulbsParallel-PARALLEL_SWITCH_EXPLAIN_Q3.sbj19-l2.qa59	the path plays an important role
+SwitchesBulbsParallel-PARALLEL_SWITCH_EXPLAIN_Q3.sbj24-l2.qa50	uh-huh
+SwitchesBulbsParallel-PARALLEL_SWITCH_EXPLAIN_Q3.sbj24-l2.qa51	switch is contained in a circuit
+SwitchesBulbsParallel-PARALLEL_SWITCH_EXPLAIN_Q3.sbj28-l2.qa49	whether there is a closed path with a battery
+SwitchesBulbsParallel-PARALLEL_SWITCH_EXPLAIN_Q3.sbj34-l2.qa54	the path can not be open
+SwitchesBulbsParallel-PARALLEL_SWITCH_EXPLAIN_Q3.sbj34-l2.qa55	the bulb must be contained in a closed path with the battery
+SwitchesBulbsParallel-PARALLEL_SWITCH_EXPLAIN_Q3.sbj38-l2.qa46	a bulb must be in a closed path with a battery and a switch for the switch to affect the bulb
+SwitchesBulbsParallel-PARALLEL_SWITCH_EXPLAIN_Q3.sbj45-l2.qa49	the switch being on or off determines whether the bulb is contained in a closed path with the battery or not
+SwitchesBulbsParallel-PARALLEL_SWITCH_EXPLAIN_Q3.sbj47-l2.qa56	a switch has to be contained in a closed path with no gaps
+SwitchesBulbsParallel-PARALLEL_SWITCH_EXPLAIN_Q3.sbjb3-l2.qa48	if the switch is on ?
+SwitchesBulbsParallel-PARALLEL_SWITCH_EXPLAIN_Q3.sbjb11-l2.qa44	it plays a significant role . if a switch is open it may or may not interfere with a closed path which is essential to light the bulb
+SwitchesBulbsParallel-PARALLEL_SWITCH_EXPLAIN_Q3.sbjb17-l2.qa44	an path with a switch connecting to a battery must be closed
+SwitchesBulbsParallel-PARALLEL_SWITCH_EXPLAIN_Q3.sbjb25-l2.qa45	they must be in the same path to affect the bulb .
+SwitchesBulbsParallel-PARALLEL_SWITCH_EXPLAIN_Q3.sbjb29-l2.qa44	a switch affects thebulb if it lies along a path that could create a closed circuit
+SwitchesBulbsParallel-PARALLEL_SWITCH_EXPLAIN_Q3.sbjb40-l2.qa44	it must be closed
+PARALLEL_SWITCH_EXPLAIN_Q3	what role does the path play in determining whether or not a switch affects a bulb ?
+answer319	bulb a was still contained in the same closed path with the battery .
+answer319.1	bulb a is still contained in a closed path with the battery and switch x .
+answer320	there is no path containing both switch y and bulb a
+answer321	switch y and bulb a are not in the same closed path
+SwitchesBulbsParallel-SWITCH_TABLE_EXPLAIN_Q1.sbj12-l2.qa62	it is on a complete path with the battery
+SwitchesBulbsParallel-SWITCH_TABLE_EXPLAIN_Q1.sbj14-l2.qa61	because it was contained in a closed path to the battery .
+SwitchesBulbsParallel-SWITCH_TABLE_EXPLAIN_Q1.sbj14-l2.qa62	the battery is conatined in the same path as the bulb .
+SwitchesBulbsParallel-SWITCH_TABLE_EXPLAIN_Q1.sbj15-l2.qa68	there was a gap in therefdjkjreajfjhkldec
+SwitchesBulbsParallel-SWITCH_TABLE_EXPLAIN_Q1.sbj18-l2.qa60	bulb a was in a closed path with a battery .
+SwitchesBulbsParallel-SWITCH_TABLE_EXPLAIN_Q1.sbj29-l2.qa66	bulb a and switch z are contained in a closed path with a battery
+SwitchesBulbsParallel-SWITCH_TABLE_EXPLAIN_Q1.sbj37-l2.qa59	it does not affect bulb a. switch x does affect bulb a. switch x was closed
+SwitchesBulbsParallel-SWITCH_TABLE_EXPLAIN_Q1.sbjb4-l2.qa54	it was on a closed path and connected to the battery
+SwitchesBulbsParallel-SWITCH_TABLE_EXPLAIN_Q1.sbjb20-l2.qa54	bulb a is in the path of switch x .
+SwitchesBulbsParallel-SWITCH_TABLE_EXPLAIN_Q1.sbjb34-l2.qa55	bulb a was in a closed circuit .
+SwitchesBulbsParallel-SWITCH_TABLE_EXPLAIN_Q1.sbjb35-l2.qa55	because it '' s path was closed .
+SwitchesBulbsParallel-SWITCH_TABLE_EXPLAIN_Q1.sbjb41-l2.qa55	bulb a was on because the path was closed from bulb a to the battery .
+SWITCH_TABLE_EXPLAIN_Q1	when switch x was closed and switch y was open , why was bulb a on ?
+answer322	bulb b and bulb c were still contained in the same closed path with the battery .
+answer323	no path containing both the switch x and either bulb b or bulb c
+answer324	there is a path with b and c that does not include x
+SwitchesBulbsParallel-SWITCH_TABLE_EXPLAIN_Q2.sbj36-l2.qa60	bulbs b and c are contained in a closed path with the battery
+SwitchesBulbsParallel-SWITCH_TABLE_EXPLAIN_Q2.sbj45-l2.qa60	bulbs b and c were still in a closed path with the battery
+SwitchesBulbsParallel-SWITCH_TABLE_EXPLAIN_Q2.sbjb35-l2.qa56	becuase the dots allowed bulb a and switch x to be bypassed and still form a closed pathway .
+SwitchesBulbsParallel-SWITCH_TABLE_EXPLAIN_Q2.sbjb37-l2.qa55	blub b ab=nd c were still contained in a closed path with the battery
+SWITCH_TABLE_EXPLAIN_Q2	when switch x was open and switch y was closed , why were bulbs b and c on ?
+answer325	when the switch and the bulb are contained in the same path
+SwitchesBulbsParallel-SWITCH_TABLE_EXPLAIN_Q3.sbj3-l2.qa60	if the bulb and the switch are contained in the same path , then the switch affects the bulb .
+SwitchesBulbsParallel-SWITCH_TABLE_EXPLAIN_Q3.sbj19-l2.qa82	when there is a closed path
+SwitchesBulbsParallel-SWITCH_TABLE_EXPLAIN_Q3.sbj26-l2.qa66	a bulb is contained in the closed path
+SwitchesBulbsParallel-SWITCH_TABLE_EXPLAIN_Q3.sbj36-l2.qa62	the switch will affect the bulb if it is on the path with the bulb to the battery
+SwitchesBulbsParallel-SWITCH_TABLE_EXPLAIN_Q3.sbj38-l2.qa59	if a bulb is in a closed path with a battery and a switch , the switch will affect the bulb .
+SwitchesBulbsParallel-SWITCH_TABLE_EXPLAIN_Q3.sbj42-l2.qa64	if a switch is open and the path is not closed , the bulb will be off . if the switch is closed and the path is closed , the bulb will be on .
+SwitchesBulbsParallel-SWITCH_TABLE_EXPLAIN_Q3.sbj45-l2.qa61	when the switch is in the same path as the bulb
+SwitchesBulbsParallel-SWITCH_TABLE_EXPLAIN_Q3.sbj46-l2.qa71	a switch will effect a bulb if it is in the same path as the battery
+SwitchesBulbsParallel-SWITCH_TABLE_EXPLAIN_Q3.sbjb4-l2.qa56	if the switch is open , the bulb will be off . if the switch is closed the bulb will be on .
+SwitchesBulbsParallel-SWITCH_TABLE_EXPLAIN_Q3.sbjb9-l2.qa56	when a switch is on the same path as the battery and the bulb
+SwitchesBulbsParallel-SWITCH_TABLE_EXPLAIN_Q3.sbjb15-l2.qa57	if it opens a gap
+SWITCH_TABLE_EXPLAIN_Q3	under what circumstances will a switch affect a bulb ?
+answer14	there is a closed path containing both the bulb and a battery
+answer15	the bulb and the battery are in a closed path
+answer16	the circuit has a closed path
+answer17	there is a complete circuit
+answer17.1	one terminal of the bulb has to be connected to one terminal of the battery , and the other terminal of the bulb has to be connected to the different terminal of the battery .
+SwitchesBulbsSeries-CONDITIONS_FOR_BULB_TO_LIGHT.sbj7-l1.qa39	i do not know
+SwitchesBulbsSeries-CONDITIONS_FOR_BULB_TO_LIGHT.sbj13-l1.qa43	a positive and a negative connection .
+SwitchesBulbsSeries-CONDITIONS_FOR_BULB_TO_LIGHT.sbj27-l1.qa43	a light bulb must be connected to the battery .
+SwitchesBulbsSeries-CONDITIONS_FOR_BULB_TO_LIGHT.sbj29-l1.qa48	the correct connection is made to the proper terminal .
+SwitchesBulbsSeries-CONDITIONS_FOR_BULB_TO_LIGHT.sbj33-l1.qa44	the positive and negative charges of the battery must connect to the bulb
+SwitchesBulbsSeries-CONDITIONS_FOR_BULB_TO_LIGHT.sbj36-l1.qa43	there has to be a closed circuit
+SwitchesBulbsSeries-CONDITIONS_FOR_BULB_TO_LIGHT.sbjb2-l1.qa33	a closed circuit .
+SwitchesBulbsSeries-CONDITIONS_FOR_BULB_TO_LIGHT.sbjb9-l1.qa35	the battery and the light bulb must be in a closed path
+SwitchesBulbsSeries-CONDITIONS_FOR_BULB_TO_LIGHT.sbjb27-l1.qa32	a closed path between the battery and the bulb
+SwitchesBulbsSeries-CONDITIONS_FOR_BULB_TO_LIGHT.sbjb35-l1.qa32	one contact connected to the + and the other attached to the - , in a closed pathway .
+SwitchesBulbsSeries-CONDITIONS_FOR_BULB_TO_LIGHT.sbjb40-l1.qa32	both the battery and the bulb must be closed .
+CONDITIONS_FOR_BULB_TO_LIGHT	what are the conditions that are required to make a bulb light up ?
+answer55	bulb b creates a gap
+answer56	a gap
+answer57	there is a gap in a circuit
+answer58	there is an open path
+answer59	there is an incomplete circuit
+answer60	there is no closed path
+SwitchesBulbsSeries-DAMAGED_BUILD_EXPLAIN_Q.sbj26-l1.qa109	gap in connection
+SwitchesBulbsSeries-DAMAGED_BUILD_EXPLAIN_Q.sbj40-l1.qa98	if bulb b is damaged , there will be no path from a to c .
+SwitchesBulbsSeries-DAMAGED_BUILD_EXPLAIN_Q.sbjb20-l1.qa82	if bulb b is damaged it creates a gap in the path .
+SwitchesBulbsSeries-DAMAGED_BUILD_EXPLAIN_Q.sbjb24-l1.qa77	no path through the bulb holder= open circuit
+SwitchesBulbsSeries-DAMAGED_BUILD_EXPLAIN_Q.sbjb35-l1.qa71	because that would create a gap .
+SwitchesBulbsSeries-DAMAGED_BUILD_EXPLAIN_Q.sbjb41-l1.qa72	in order for bulbs a and c to work properly , they also need b to work properly because they are all connected to the same battery power .
+DAMAGED_BUILD_EXPLAIN_Q	explain your reasoning .
+answer64	a damaged bulb creates a gap
+answer66	there is a gap in the circuit
+answer67	there is an open path
+answer68	there is no closed path
+answer69	there is an incomplete circuit
+SwitchesBulbsSeries-DAMAGED_BULB_EXPLAIN_2_Q.sbj3-l1.qa98	if a bulb is damaged the path is opned at that bulb
+SwitchesBulbsSeries-DAMAGED_BULB_EXPLAIN_2_Q.sbj10-l1.qa112	because it creates a gap
+SwitchesBulbsSeries-DAMAGED_BULB_EXPLAIN_2_Q.sbj46-l1.qa105	there is a gap in the circuit
+SwitchesBulbsSeries-DAMAGED_BULB_EXPLAIN_2_Q.sbjb24-l1.qa85	doesnt allow for current to run through the circuit
+SwitchesBulbsSeries-DAMAGED_BULB_EXPLAIN_2_Q.sbjb37-l1.qa79	it destroys the path way
+DAMAGED_BULB_EXPLAIN_2_Q	why does a damaged bulb impact a circuit ?
+answer416	a and c are in the same closed path
+answer416.1	a and c are in the same path
+SwitchesBulbsSeries-GIVE_CIRCUIT_TYPE_SERIES_EXPLAIN_Q.sbj14-l2.qa139	because they are on the same path .
+SwitchesBulbsSeries-GIVE_CIRCUIT_TYPE_SERIES_EXPLAIN_Q.sbj23-l2.qa135	bulb a , b , and c are contained in the same path with the battery .
+SwitchesBulbsSeries-GIVE_CIRCUIT_TYPE_SERIES_EXPLAIN_Q.sbj34-l2.qa144	the buls are contained in the same closed path . removing one bulb will shut off the other .
+SwitchesBulbsSeries-GIVE_CIRCUIT_TYPE_SERIES_EXPLAIN_Q.sbj38-l2.qa129	if bulb b was damaged , bulb a and bulb c would be off
+SwitchesBulbsSeries-GIVE_CIRCUIT_TYPE_SERIES_EXPLAIN_Q.sbj38-l2.qa130	if one bulb was damaged , the other bulbs would be off .
+SwitchesBulbsSeries-GIVE_CIRCUIT_TYPE_SERIES_EXPLAIN_Q.sbj39-l2.qa153	bulbs a and c are contained in the same path . if bulb a goes out , bulb c is affected
+SwitchesBulbsSeries-GIVE_CIRCUIT_TYPE_SERIES_EXPLAIN_Q.sbj40-l2.qa143	removing or damaging one bulb will shut off the other bulbs .
+SwitchesBulbsSeries-GIVE_CIRCUIT_TYPE_SERIES_EXPLAIN_Q.sbj43-l2.qa143	they are all on the same path to the battery
+SwitchesBulbsSeries-GIVE_CIRCUIT_TYPE_SERIES_EXPLAIN_Q.sbj48-l2.qa133	they are contained in the same closed path with the battery .
+SwitchesBulbsSeries-GIVE_CIRCUIT_TYPE_SERIES_EXPLAIN_Q.sbjb5-l2.qa116	bulb a is connected to bulb b and bulb c. if bulb a is damaged , it will affect bulbs b and c .
+SwitchesBulbsSeries-GIVE_CIRCUIT_TYPE_SERIES_EXPLAIN_Q.sbjb12-l2.qa118	when one bulb is removed or damaged it affects the other
+SwitchesBulbsSeries-GIVE_CIRCUIT_TYPE_SERIES_EXPLAIN_Q.sbjb18-l2.qa116	they will affect eachother
+SwitchesBulbsSeries-GIVE_CIRCUIT_TYPE_SERIES_EXPLAIN_Q.sbjb19-l2.qa118	because there is no other path
+SwitchesBulbsSeries-GIVE_CIRCUIT_TYPE_SERIES_EXPLAIN_Q.sbjb30-l2.qa116	bulbs a , b , and c are all affected by one another .
+SwitchesBulbsSeries-GIVE_CIRCUIT_TYPE_SERIES_EXPLAIN_Q.sbjb41-l2.qa117	if bulb a was removed , it wouldn '' t affect bulb c .
+GIVE_CIRCUIT_TYPE_SERIES_EXPLAIN_Q	explain your reasoning .
+answer22	the battery in 2 is not in a closed path
+answer23	there is no closed path containing the battery
+answer24	the battery is in an open path
+SwitchesBulbsSeries-SHORT_CIRCUIT_EXPLAIN_Q_2.sbj9-l1.qa52	only one side of the battery is connected .
+SwitchesBulbsSeries-SHORT_CIRCUIT_EXPLAIN_Q_2.sbj24-l1.qa61	bulb is connected to same terminal
+SwitchesBulbsSeries-SHORT_CIRCUIT_EXPLAIN_Q_2.sbj27-l1.qa60	because the battery is not completely connected .
+SwitchesBulbsSeries-SHORT_CIRCUIT_EXPLAIN_Q_2.sbj37-l1.qa46	the positive and negative ends of battery 2 are not connected
+SwitchesBulbsSeries-SHORT_CIRCUIT_EXPLAIN_Q_2.sbj39-l1.qa58	circuit 2 is not a short circuit because there is a bulb .
+SwitchesBulbsSeries-SHORT_CIRCUIT_EXPLAIN_Q_2.sbjb34-l1.qa41	the closed path is only contains the negative side of the battery and the bulb .
+SHORT_CIRCUIT_EXPLAIN_Q_2	explain why circuit 2 is not a short circuit .
+answer25	circuit 4 has no closed paths
+answer26	the battery in 4 is not in a closed path
+answer27	there is no closed path
+answer28	the battery is in an open path
+SwitchesBulbsSeries-SHORT_CIRCUIT_EXPLAIN_Q_4.sbj8-l1.qa66	because the path is open
+SwitchesBulbsSeries-SHORT_CIRCUIT_EXPLAIN_Q_4.sbj11-l1.qa72	circuit 4 is a short circuit .
+SwitchesBulbsSeries-SHORT_CIRCUIT_EXPLAIN_Q_4.sbj31-l1.qa56	battery is not on a closed path
+SwitchesBulbsSeries-SHORT_CIRCUIT_EXPLAIN_Q_4.sbj34-l1.qa45	there are no closed paths
+SHORT_CIRCUIT_EXPLAIN_Q_4	explain why circuit 4 is not a short circuit .
+answer30	the battery is contained in a path in which there is no bulb
+answer31	the battery is contained in a path which does not contain any other components
+answer32	the bulb is not in the closed path containing the battery
+answer33	the battery is contained in a closed path in which there is no bulb
+answer34	the battery is contained in a closed path which does not contain any other components
+SwitchesBulbsSeries-SHORT_CIRCUIT_EXPLAIN_Q_5.sbj9-l1.qa55	the battery is in a closed path . the battery is not connected to a bulb .
+SwitchesBulbsSeries-SHORT_CIRCUIT_EXPLAIN_Q_5.sbj15-l1.qa80	the battery is in a closed path
+SwitchesBulbsSeries-SHORT_CIRCUIT_EXPLAIN_Q_5.sbj23-l1.qa56	the battery is in a closed path alone .
+SwitchesBulbsSeries-SHORT_CIRCUIT_EXPLAIN_Q_5.sbj23-l1.qa57	the bulb is not contained in the circuit .
+SwitchesBulbsSeries-SHORT_CIRCUIT_EXPLAIN_Q_5.sbj24-l1.qa65	bulb does not light
+SwitchesBulbsSeries-SHORT_CIRCUIT_EXPLAIN_Q_5.sbj45-l1.qa49	it is a short circuit because the battery is contained in a closed path without the bulb .
+SwitchesBulbsSeries-SHORT_CIRCUIT_EXPLAIN_Q_5.sbj48-l1.qa56	the battery is in a closed path without any other components
+SwitchesBulbsSeries-SHORT_CIRCUIT_EXPLAIN_Q_5.sbjb24-l1.qa45	bulb is outside the closed path
+SwitchesBulbsSeries-SHORT_CIRCUIT_EXPLAIN_Q_5.sbjb34-l1.qa43	the battery connects to a bulb .
+SwitchesBulbsSeries-SHORT_CIRCUIT_EXPLAIN_Q_5.sbjb39-l1.qa43	circuit 5 is a short circuit because it is contained in a closed path and the bulb does not interfere .
+SHORT_CIRCUIT_EXPLAIN_Q_5	explain why circuit 5 is a short circuit .
+answer19	the battery is damaged
+answer20	there is a short circuit
+SwitchesBulbsSeries-SHORT_CIRCUIT_X_Q.sbj8-l1.qa59	do not do this with a real battery .
+SwitchesBulbsSeries-SHORT_CIRCUIT_X_Q.sbj8-l1.qa60	the battery is damaged .
+SwitchesBulbsSeries-SHORT_CIRCUIT_X_Q.sbj33-l1.qa49	no charge
+SwitchesBulbsSeries-SHORT_CIRCUIT_X_Q.sbj33-l1.qa50	the battery is unable to give a charge
+SwitchesBulbsSeries-SHORT_CIRCUIT_X_Q.sbj35-l1.qa49	the circuit path is damaged .
+SwitchesBulbsSeries-SHORT_CIRCUIT_X_Q.sbj39-l1.qa53	i think it means that the connection is incorrect .
+SwitchesBulbsSeries-SHORT_CIRCUIT_X_Q.sbjb3-l1.qa44	that there is a short circut
+SwitchesBulbsSeries-SHORT_CIRCUIT_X_Q.sbjb11-l1.qa39	damaged battery
+SwitchesBulbsSeries-SHORT_CIRCUIT_X_Q.sbjb21-l1.qa37	the circuit is short
+SwitchesBulbsSeries-SHORT_CIRCUIT_X_Q.sbjb25-l1.qa37	it has a short circuit and is not being used in the correct way .
+SwitchesBulbsSeries-SHORT_CIRCUIT_X_Q.sbjb36-l1.qa37	that there is a short circuit and that the battery is not hooked up properly .
+SHORT_CIRCUIT_X_Q	what do you think the red x means ?
+answer46	the open switch creates a gap
+answer47	a gap
+answer48	there is a gap in a circuit
+answer49	the path is not closed
+answer51	there is an incomplete circuit
+answer52	there is an open path
+SwitchesBulbsSeries-SWITCH_OPEN_EXPLAIN_Q.sbj8-l1.qa98	a switch creates electricity
+SwitchesBulbsSeries-SWITCH_OPEN_EXPLAIN_Q.sbj8-l1.qa99	i don '' t know .
+SwitchesBulbsSeries-SWITCH_OPEN_EXPLAIN_Q.sbj18-l1.qa77	it causes the path to be incomplete .
+SwitchesBulbsSeries-SWITCH_OPEN_EXPLAIN_Q.sbj19-l1.qa100	the path is open instead of closed
+SwitchesBulbsSeries-SWITCH_OPEN_EXPLAIN_Q.sbj24-l1.qa87	it makes the path open
+SwitchesBulbsSeries-SWITCH_OPEN_EXPLAIN_Q.sbj29-l1.qa90	because everything is connected
+SwitchesBulbsSeries-SWITCH_OPEN_EXPLAIN_Q.sbjb4-l1.qa63	it opens up the closed path
+SwitchesBulbsSeries-SWITCH_OPEN_EXPLAIN_Q.sbjb16-l1.qa65	the electrical current can '' t get to the battery
+SwitchesBulbsSeries-SWITCH_OPEN_EXPLAIN_Q.sbjb20-l1.qa74	an open switch makes a gap in the path .
+SwitchesBulbsSeries-SWITCH_OPEN_EXPLAIN_Q.sbjb24-l1.qa65	prevents the circuit from being closed and current from traveling through it
+SwitchesBulbsSeries-SWITCH_OPEN_EXPLAIN_Q.sbjb30-l1.qa63	an open switch creates a gap in the path .
+SwitchesBulbsSeries-SWITCH_OPEN_EXPLAIN_Q.sbjb36-l1.qa63	it cuts the electrical current that is needed to light up the light bulb . it needs to be connected on both sides and if one is disconnected then the bulb won '' t light up .
+SWITCH_OPEN_EXPLAIN_Q	why does an open switch impact a circuit ?

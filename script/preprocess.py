@@ -1,0 +1,36 @@
+# coding: utf-8
+'''
+专门用于 英文的文本预处理
+1.去空白符
+2.变小写
+3.分词
+'''
+import nltk
+import re
+import sys
+filename = sys.argv[1]
+
+fsen = open(filename,'r')
+column = 2
+seq = '\t'
+corpus = {}
+worddict = {}
+for line in fsen:
+    tmp = line.strip().split(seq)
+    if len(tmp)<column:
+        continue
+    query = tmp[column-1]
+    # 去空白符
+    query = " ".join([item for item in query.split(' ') if item!=""])
+    # 分词
+    words = [word.lower() for word in nltk.word_tokenize(query) ]
+    for w in words:
+        if w not in worddict:
+           worddict[w] = len(worddict)+1
+    tmp[column-1] = " ".join(words)
+    print(seq.join(tmp))
+fword = open("word.txt",'w')
+for key,value in worddict.items():
+    fword.write(key+'\t'+str(value)+'\n')
+fword.close()
+    

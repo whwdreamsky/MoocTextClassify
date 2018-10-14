@@ -7,6 +7,7 @@ from keras.preprocessing.text import Tokenizer
 from keras.preprocessing import sequence
 import keras.utils.np_utils as np_utils
 import numpy as np
+from tools import load_data
 from gensim.models import KeyedVectors
 
 
@@ -18,10 +19,12 @@ num_filters =10
 embedding_dim = 200
 pooling_size =2
 droprate = 0.5
-batch_size = 50
-num_epochs = 30
+batch_size = 12
+num_epochs = 50
 labledict=dict({"correct":0,"contradictory":1,"irrelevant":2,"non_domain":3,"partially_correct_incomplete":4})
-def load_data(qus_ans_file,labeltype):
+sentence_maxlen1 = 30
+sentence_maxlen2 = 70
+def load_data_1(qus_ans_file,labeltype):
     # 这里label type twoway|fiveway
     data = pd.read_csv(qus_ans_file,sep='\t',header=None)
     qus = list(data[0])
@@ -63,7 +66,7 @@ def load_data(qus_ans_file,labeltype):
     x_all = x_all[shuffle_indices]
     y_lable = np.array(y_lable)
     y_lable = y_lable[shuffle_indices]
-    train_len = int(len(x_all)*0.9)
+    train_len = int(len(x_all)*0.8)
     x_train = x_all[:train_len]
     y_train = y_lable[:train_len]
     x_test = x_all[train_len:]
@@ -102,6 +105,7 @@ def trainModel(x_train,y_train,x_test,y_test,dictionary_inv,word2vecfile):
     ans_test = x_test[:,1]
     y_train = np_utils.to_categorical(y_train)
     y_test = np_utils.to_categorical(y_test)
+    # 这种是词向量固定 
     qus_train = transToWord2Vec(qus_train,word2vecweight,dictionary_inv)
     ans_train = transToWord2Vec(ans_train,word2vecweight,dictionary_inv)
     qus_test = transToWord2Vec(qus_test,word2vecweight,dictionary_inv)
@@ -139,7 +143,7 @@ def trainModel(x_train,y_train,x_test,y_test,dictionary_inv,word2vecfile):
     model.save("model.h5")
 
 
-
-x_train,y_train,x_test,y_test,dictionary_inv = load_data("./ques_ans.txt","")
+x_train,y_train,x_test,y_test,dictionary_inv = load_data("../data/train_bettle/index_simple_token.txt","../data/train_bettle/relation.txt","../data/train_bettle/word.txt",labeltype="5way")
+#x_train,y_train,x_test,y_test,dictionary_inv = load_data("./ques_ans.txt","")
 trainModel(x_train,y_train,x_test,y_test,dictionary_inv,"./eng.vectors.bin")
 
