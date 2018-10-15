@@ -5,9 +5,11 @@ from keras.models import Sequential, Model,load_model
 from keras.layers.merge import Concatenate
 from keras.preprocessing.text import Tokenizer
 from keras.preprocessing import sequence
+from keras import backend as K
 import keras.utils.np_utils as np_utils
 import numpy as np
-from tools import load_data
+from tools import load_data,load_data_1
+from tools import Metrics
 from gensim.models import KeyedVectors
 
 
@@ -16,7 +18,7 @@ from gensim.models import KeyedVectors
 
 sentence_maxlen = 100
 num_filters =10
-embedding_dim = 200
+embedding_dim = 300
 pooling_size =2
 droprate = 0.5
 batch_size = 12
@@ -24,54 +26,32 @@ num_epochs = 50
 labledict=dict({"correct":0,"contradictory":1,"irrelevant":2,"non_domain":3,"partially_correct_incomplete":4})
 sentence_maxlen1 = 30
 sentence_maxlen2 = 70
-def load_data_1(qus_ans_file,labeltype):
-    # 这里label type twoway|fiveway
-    data = pd.read_csv(qus_ans_file,sep='\t',header=None)
-    qus = list(data[0])
-    ans = list(data[1])
-    y_lable = list(data[2])
-    y_lable = [labledict[type] for type in y_lable]
-    
-    if labeltype =="twoway":
-        y_twoway = []
-        for item in y_lable:
-            if item =="correct":
-                y_twoway.append(1)
-            else:
-                y_twoway.append(0)
-        y_lable = y_twoway
-    text = list(qus)
-    text.extend(ans)
-    text_uniq = list(set(text))
-    tk = Tokenizer()
-    tk.fit_on_texts(text_uniq)
-    vocabusize = len(tk.word_index) +1
-    ans_encode = tk.texts_to_sequences(ans)
-    qus_encode = tk.texts_to_sequences(qus)
-    # 获取字典 dictionary_inv：(id : word) 这个是逆序的词典，用于之后过来查word2vec 词向量
-    dictionary = tk.word_index
-    dictionary_inv = dict((value,key) for key,value in dictionary.items())
-    dictionary_inv[0] ='PAD'
-    ans_encode_pad = sequence.pad_sequences(ans_encode,maxlen=sentence_maxlen,padding="post",truncating="post")
-    qus_encode_pad = sequence.pad_sequences(qus_encode,maxlen=sentence_maxlen,padding="post",truncating="post")
-    x_all = []
-    for i in range(len(qus)):
-        tmp = []
-        tmp.append(ans_encode_pad[i])
-        tmp.append(qus_encode_pad[i])
-        x_all.append(tmp)
-    # shuffle 数据
-    x_all = np.array(x_all)
-    shuffle_indices = np.random.permutation(np.arange(len(y_lable)))
-    x_all = x_all[shuffle_indices]
-    y_lable = np.array(y_lable)
-    y_lable = y_lable[shuffle_indices]
-    train_len = int(len(x_all)*0.8)
-    x_train = x_all[:train_len]
-    y_train = y_lable[:train_len]
-    x_test = x_all[train_len:]
-    y_test = y_lable[train_len:]
-    return x_train,y_train,x_test,y_test,dictionary_inv
+def f1(y_true, y_pred):
+    def recall(y_true, y_pred):
+        """Recall metric.
+        Only computes a batch-wise average of recall.
+        Computes the recall, a metric for multi-label classification of
+        how many relevant items are selected.
+        """
+        true_positives = K.sum(K.round(K.clip(y_true * y_pred, 0, 1)))
+        possible_positives = K.sum(K.round(K.clip(y_true, 0, 1)))
+        recall = true_positives / (possible_positives + K.epsilon())
+        return recall
+ 
+    def precision(y_true, y_pred):
+        """Precision metric.
+        Only computes a batch-wise average of precision.
+        Computes the precision, a metric for multi-label classification of
+        how many selected items are relevant.
+        """
+        true_positives = K.sum(K.round(K.clip(y_true * y_pred, 0, 1)))
+        predicted_positives = K.sum(K.round(K.clip(y_pred, 0, 1)))
+        precision = true_positives / (predicted_positives + K.epsilon())
+        return precision
+    precision = precision(y_true, y_pred)
+    recall = recall(y_true, y_pred)
+    return 2*((precision*recall)/(precision+recall+K.epsilon()))
+
 
 
 def transToWord2Vec(x_train,word2vecweight,dictionary_inv):
@@ -102,17 +82,19 @@ def transdata(xlist):
     return qus
 
 def trainModel(x_train,y_train,x_test,y_test,dictionary_inv,word2vecfile):
-    word2vecweight = KeyedVectors.load_word2vec_format(word2vecfile,binary=True)
+    #word2vecweight = KeyedVectors.load_word2vec_format(word2vecfile,binary=False)
     # 作为PAD 的embeeding
-    UNK = np.random.randn(embedding_dim,)
-    PAD = np.random.randn(embedding_dim,)
-    embeedingweight = [PAD]
-    for i in range(1,len(dictionary_inv)):
-        if dictionary_inv[i] in word2vecweight.wv.vocab:
-            embeedingweight.append(word2vecweight[dictionary_inv[i]])
-        else:
-            embeedingweight.append(UNK)
-    embeedingweight = np.stack(embeedingweight)
+    #UNK = np.random.randn(embedding_dim,)
+    #PAD = np.random.randn(embedding_dim,)
+    #embeedingweight = [PAD]
+    #for i in range(1,len(dictionary_inv)):
+    #    if dictionary_inv[i] in word2vecweight.wv.vocab:
+    #        embeedingweight.append(word2vecweight[dictionary_inv[i]])
+    #    else:
+    #        embeedingweight.append(UNK)
+    #embeedingweight = np.stack(embeedingweight)
+    embeedingweight = np.load(word2vecfile)
+    
     print(embeedingweight.shape)
     #word2vecweight['PAD'] = np.zeros(word2vecweight.vector_size)
     qus_train = transdata(x_train[:,0])
@@ -132,7 +114,7 @@ def trainModel(x_train,y_train,x_test,y_test,dictionary_inv,word2vecfile):
     query = Input(name='query', shape=(sentence_maxlen1,))
     doc = Input(name='doc', shape=(sentence_maxlen2,))
     # 词向量不固定
-    embedding = Embedding(len(dictionary_inv), embedding_dim, weights=[embeedingweight], trainable = False)
+    embedding = Embedding(len(dictionary_inv), embedding_dim, weights=[embeedingweight], trainable = True)
     q_embed = embedding(query)
     #show_layer_info('Embedding', q_embed)
     d_embed = embedding(doc)
@@ -150,20 +132,21 @@ def trainModel(x_train,y_train,x_test,y_test,dictionary_inv,word2vecfile):
 
     pool1_flat_drop = Dropout(rate=droprate)(pool1_flat)
 
-    out_ = Dense(5, activation='softmax')(pool1_flat_drop)
+    out_ = Dense(2, activation='softmax')(pool1_flat_drop)
+    metrics = Metrics()
     model = Model([query,doc], out_)
-    model.compile(loss="categorical_crossentropy", optimizer="sgd", metrics=["accuracy"])
+    model.compile(loss="categorical_crossentropy", optimizer="adam", metrics=["accuracy"])
     #model.compile(loss="binary_crossentropy", optimizer="adam", metrics=["accuracy"])
-
     # Train the model
-    model.fit([qus_train,ans_train], y_train, batch_size=batch_size, epochs=num_epochs,
-          validation_data=([qus_test,ans_test], y_test), verbose=2)
+    model.fit([qus_train,ans_train], y_train, batch_size=batch_size, epochs=num_epochs,validation_data=([qus_test,ans_test], y_test), verbose=2)
     #存储模型
     model.save("model.h5")
 
 
 #x_train,y_train,x_test,y_test,dictionary_inv = load_data("../data/train_bettle/index_simple_token.txt","../data/train_bettle/relation.txt","../data/train_bettle/word.txt",labeltype="5way")
 #x_train,y_train,x_test,y_test,dictionary_inv = load_data("./ques_ans.txt","")
-x_train,y_train,x_test,y_test,dictionary_inv = load_data("../data/train_bettle/index_simple_token.txt","../data/train_bettle/relation.txt","../data/test_bettle/ua_index_query.txt","../data/test_bettle/ua_relation.txt","../data/word.txt",labeltype="5way",sentence_maxlen1=30,sentence_maxlen2=70)
-trainModel(x_train,y_train,x_test,y_test,dictionary_inv,"/Users/oliver/workplace/deeplearning/resource/eng.vectors.bin")
+#x_train,y_train,x_test,y_test,dictionary_inv = load_data("../data/train_bettle/index_simple_token.txt","../data/train_bettle/relation.txt","../data/test_bettle/ua_index_query.txt","../data/test_bettle/ua_relation.txt","../data/word.txt",labeltype="5way",sentence_maxlen1=30,sentence_maxlen2=70)
+#trainModel(x_train,y_train,x_test,y_test,dictionary_inv,"/Users/oliver/workplace/deeplearning/resource/wiki.en.vec")
 
+x_train,y_train,x_test,y_test,dictionary_inv = load_data_1("../data/wiki/WikiQA-train.txt","../data/wiki/word.txt",labeltype="5way")
+trainModel(x_train,y_train,x_test,y_test,dictionary_inv,"/Users/oliver/workplace/deeplearning/resource/wiki_sgns_2.npy")
